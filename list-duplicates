@@ -11,6 +11,9 @@ def findDup(parentFolder):
         for filename in fileList:
             # Get the path to the file
             path = os.path.join(dirName, filename)
+            # ignore links
+            if os.path.islink(path):
+                continue
             # Calculate hash
             file_hash = hashfile(path)
             # Add or append the file path
