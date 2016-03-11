@@ -1,0 +1,51 @@
+#!/usr/bin/python3
+
+import os, sys
+
+if __name__ == '__main__':
+    if len(sys.argv) == 4:
+        basedir = os.getcwd()
+        (prgname, icontype, iconname, foreignpath) = sys.argv
+        if not os.path.exists(foreignpath):
+            print("%s not found." % foreignpath)
+            sys.exit()
+
+        sizes = ["16", "22", "24", "32", "48", "64", "96", "256"]
+        types = ["apps"]
+
+        if icontype not in types:
+            print ("Unknown icon type: %s" % icontype)
+            sys.exit()
+
+        local_theme = "usr/share/icons/Mint-Y"
+        if not os.path.exists(local_theme):
+            print ("%s not found." % local_theme)
+            sys.exit()
+
+
+        for size in sizes:
+            print("")
+            possible_paths = ["{type}/{size}", "{size}/{type}", "{type}/{size}x{size}", "{size}x{size}/{type}"]
+            for possible_path in possible_paths:
+                possible_path = possible_path.format(type=icontype, size=size)
+                path = os.path.join(foreignpath, possible_path, iconname)
+                if os.path.exists(path):
+                    local_path = "%s/%s/%s/%s" % (local_theme, icontype, size, iconname)
+                    if os.path.exists(local_path):
+                        print ("rm %s" % local_path)
+                        os.system ("rm %s" % local_path)
+                    print ("cp %s %s" % (path, local_path))
+                    os.system ("cp %s %s" % (path, local_path))
+
+        print("")
+        
+    else:
+        print ("")
+        print("Usage: %s icon-type icon-name foreign-path" % sys.argv[0])
+        print("")
+        print ("Note: icon-type is the type of icon")
+        print ("Note: icon-name is the filename of the icon")
+        print ("Note: foreign-path is the path to the theme to import from")
+        print ("")
+        print ("Example: %s apps brasero.png /usr/share/icons/Moka" % sys.argv[0])
+        print ("")
