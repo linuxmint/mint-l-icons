@@ -1,0 +1,68 @@
+#!/usr/bin/python3
+
+import os, sys
+
+if __name__ == '__main__':
+    if len(sys.argv) == 3:
+        basedir = os.getcwd()
+        (prgname, localpath, foreignpath) = sys.argv
+        localfiles = []
+        foreignfiles = []
+        for dirname, subdirs, filelist in os.walk(localpath):
+            for filename in filelist:
+                if filename not in localfiles:
+                    localfiles.append(filename)
+        for dirname, subdirs, filelist in os.walk(foreignpath):
+            for filename in filelist:
+                if filename not in localfiles and filename not in foreignfiles:
+                    foreignfiles.append(filename)
+
+        missing_files = []
+        missing_links_to_existing_files = []
+        missing_links_to_missing_files = []
+        for filename in sorted(foreignfiles):
+            path = os.path.join(foreignpath, filename)
+            if os.path.exists(path):
+                if os.path.islink(path):
+                    target = os.readlink(path)
+                    if os.path.exists(os.path.join(localpath, target)):
+                        missing_links_to_existing_files.append("%s --> %s" % (filename, target))
+                    else:
+                        missing_links_to_missing_files.append("%s --> %s" % (filename, target))
+                else:                    
+                    missing_files.append(filename)
+
+
+        if len(missing_files) > 0:
+            print ("")
+            print ("Missing icons:")
+            print ("--------------")
+            for filename in sorted(missing_files):
+                print ("    %s" % filename)
+
+        if len(missing_links_to_existing_files) > 0:
+            print ("")
+            print ("Missing links to existing icons:")
+            print ("--------------")
+            for filename in sorted(missing_links_to_existing_files):
+                print ("    %s" % filename)
+
+        if len(missing_links_to_missing_files) > 0:
+            print ("")
+            print ("Missing links to missing icons:")
+            print ("--------------")
+            for filename in sorted(missing_links_to_missing_files):
+                print ("    %s" % filename)
+
+
+        print("")
+        
+    else:
+        print ("")
+        print("Usage: %s local-path foreign-path" % sys.argv[0])
+        print("")
+        print ("Note: local-path is the path to one directory of this theme")
+        print ("Note: foreign-path is the path to one directory of this theme")
+        print ("")
+        print ("Example: %s usr/share/icons/apps/64 /usr/share/icons/Moka/64x64/apps" % sys.argv[0])
+        print ("")
