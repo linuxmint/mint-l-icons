@@ -1,0 +1,12 @@
+Source: mint-y-icons
+Section: gnome
+Priority: optional
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: mint-y-icons
+Architecture: all
+Description: Mint-Y Icon themes
+ A flat, colorful, and modern themes based on
+ Vibrancy and Moka.
