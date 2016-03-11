@@ -1,0 +1,28 @@
+#!/usr/bin/python3
+
+import os, sys
+
+if __name__ == '__main__':
+    if len(sys.argv) == 3:
+        basedir = os.getcwd()
+        (prgname, iconname, linkname) = sys.argv
+        for dirname, subdirs, filelist in os.walk("usr/share/icons"):
+            for filename in filelist:
+                if filename == iconname:
+                    print("")
+                    iconpath = os.path.join(dirname, iconname)
+                    linkpath = os.path.join(dirname, linkname)
+                    if os.path.exists(iconpath):
+                        print("--> %s:" % dirname)
+                        os.chdir(dirname)
+                        if os.path.exists(linkname):
+                            print("    rm %s" % linkname)
+                            os.system("rm %s" % linkname)
+                        print ("    ln -s %s %s" % (iconname, linkname))
+                        os.system("ln -s %s %s" % (iconname, linkname))
+                        os.chdir(basedir)
+        print("")
+        
+    else:
+        print("Usage: %s icon-name link-name" % sys.argv[0])
+        print ("Note: if link-name already exists (whether it's a link or a file), it gets deleted first, and then it is created as a new link pointing to icon-name")
