@@ -55,13 +55,14 @@ def printResults(dict1):
                 print('\t\t%s' % subresult)
             print('___________________')
  
+        print ("Duplicated sets: %s" % len(results))
     else:
         print('No duplicate files found.')
  
  
 if __name__ == '__main__':
     dups = {}
-    folders = ["usr/share/icons"]
+    folders = ["usr/share/icons/"]
     for i in folders:
         # Iterate the folders given
         if os.path.exists(i):
