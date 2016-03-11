@@ -13,13 +13,16 @@ if __name__ == '__main__':
                     iconpath = os.path.join(dirname, iconname)
                     linkpath = os.path.join(dirname, linkname)
                     if os.path.exists(iconpath):
-                        print("--> %s:" % dirname)
-                        os.chdir(dirname)
-                        if os.path.exists(linkname):
-                            print("    rm %s" % linkname)
-                            os.system("rm %s" % linkname)
-                        print ("    ln -s %s %s" % (iconname, linkname))
-                        os.system("ln -s %s %s" % (iconname, linkname))
+                        if os.path.islink(iconpath):
+                            print ("!!! SKIPPED: %s is a link! Please fix this manually (it could lead to a circular link situation)." % iconpath)
+                        else:
+                            print("--> %s:" % dirname)
+                            os.chdir(dirname)
+                            if os.path.exists(linkname):
+                                print("    rm %s" % linkname)
+                                os.system("rm %s" % linkname)
+                            print ("    ln -s %s %s" % (iconname, linkname))
+                            os.system("ln -s %s %s" % (iconname, linkname))
                         os.chdir(basedir)
         print("")
         
