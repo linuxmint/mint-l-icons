@@ -3,7 +3,7 @@ Name=Mint-Y
 Inherits=Mint-X,gnome,hicolor
 Comment=Icon theme built for Linux Mint. Uses elements of Vibrancy and Moka.
 
-Directories=apps/16,apps/22,apps/24,apps/32,apps/48,apps/64,apps/96,apps/256
+Directories=apps/16,categories/16,apps/22,categories/22,apps/24,categories/24,apps/32,categories/32,apps/48,categories/48,apps/64,categories/64,apps/96,categories/96,apps/256,categories/256
 
 [apps/16]
 Size=16
@@ -43,4 +43,44 @@ Type=Fixed
 [apps/256]
 Size=256
 Context=Apps
+Type=Fixed
+
+[categories/16]
+Size=16
+Context=Categories
+Type=Fixed
+
+[categories/22]
+Size=22
+Context=Categories
+Type=Fixed
+
+[categories/24]
+Size=24
+Context=Categories
+Type=Fixed
+
+[categories/32]
+Size=32
+Context=Categories
+Type=Fixed
+
+[categories/48]
+Size=48
+Context=Categories
+Type=Fixed
+
+[categories/64]
+Size=64
+Context=Categories
+Type=Fixed
+
+[categories/96]
+Size=96
+Context=Categories
+Type=Fixed
+
+[categories/256]
+Size=256
+Context=Categories
 Type=Fixed
