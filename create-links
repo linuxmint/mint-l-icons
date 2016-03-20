@@ -3,7 +3,7 @@
 import os, sys
 
 if __name__ == '__main__':
-    if len(sys.argv) > 3:
+    if len(sys.argv) >= 3:
         basedir = os.getcwd()
         iconname = sys.argv[1]
         linknames = sys.argv[2:]
