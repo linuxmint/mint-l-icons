@@ -52,7 +52,17 @@ def printResults(dict1):
         print('___________________')
         for result in results:
             for subresult in result:
-                print('\t\t%s' % subresult)
+                filename = subresult.split("/")[-1]
+                links = False
+                for size in [16, 22, 24, 32, 48, 64, 96, 256]:
+                    alt = subresult.replace(filename, "../%s/%s" % (size, filename))
+                    if os.path.islink(alt):
+                        links = True
+                if links:
+                    print('\t\t%s' % subresult)
+                else:
+                    print('\t\t%s (main)' % subresult)
+
             print('___________________')
  
         print ("Duplicated sets: %s" % len(results))
