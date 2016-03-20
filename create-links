@@ -7,7 +7,7 @@ if __name__ == '__main__':
         basedir = os.getcwd()
         iconname = sys.argv[1]
         linknames = sys.argv[2:]
-        for dirname, subdirs, filelist in os.walk("usr/share/icons"):
+        for dirname, subdirs, filelist in os.walk("usr/share/icons/Mint-Y/apps"):
             for filename in filelist:
                 if filename == iconname:
                     print("")
