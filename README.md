@@ -2,8 +2,18 @@
 Credits
 =======
 
-The application and category icons originate from Moka Icon Theme:
+The application and category icons originate from the Moka icon theme:
 	Link: https://github.com/moka-project/moka-icon-theme
+	Author: Sam Hewitt <hewittsamuel@gmail.com>
+	License: Creative Commons Attribution-ShareAlike 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+The mimetypes and places icons originate from the Papirus icon theme:
+	Link: https://github.com/varlesh/papirus-suite
+	Author: Alexey Varfolomeev
+	License: Creative Commons Attribution-ShareAlike 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+which itself is based on the Paper icon theme:
+	Link: https://github.com/snwh/paper-icon-theme
 	Author: Sam Hewitt <hewittsamuel@gmail.com>
 	License: Creative Commons Attribution-ShareAlike 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
 
