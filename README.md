@@ -34,3 +34,7 @@ To find circular symbolic links:
 To find broken links:
 
 	find -L usr/ -type l
+
+To find files with spaces in their filenames (that breaks the icon cache generation):
+
+	find . | egrep '. '
