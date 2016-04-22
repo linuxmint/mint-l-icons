@@ -1,3 +1,52 @@
+mint-y-icons (1.0.1) sarah; urgency=medium
+
+  [ JosephMcc ]
+  * Add some missing links for cs-privacy, themes, and notifications
+  * Add a few more missing cinnamon settings icons
+  * Add category icons from Moka
+  * update the index.theme
+  * Fix more duplicates
+  * Fix some more duplicates
+
+  [ Clement Lefebvre ]
+  * Added a script to list duplicated icons
+  * Added a script to create symbolic icon links
+  * Added compare-with-other-theme script to quickly identify missing icons and links present in other themes and not this one
+  * Added mising links (when compared with Moka)
+  * Added a script to import icons from other themes
+  * Imported missing icons from Moka (and added missing links)
+  * list-duplicates: ignore links
+  * Fixed some of the duplicates (replaced with symbolic links)
+  * Fixed more duplicates..
+  * list-duplicates: Show number of duplicate sets
+  * updated README
+  * Fixed recursive links
+  * Fixed more duplicates
+  * Removed icons with spaces in their names (breaks cache generation)
+  * Fixed duplicates
+  * Fixed more duplicates
+  * Fixed more duplicates
+  * Fixed more duplicates
+  * list-duplicates: In each set, indicate which file looks like the main file
+  * create-links: Allow multiple link names in the arguments
+  * Fixed more duplicates
+  * Added command in README to list broken links, and fixed issue in create-links
+  * Restrict list-duplicates/create-links to apps icons
+  * Fixed remaining duplicates
+  * Fixed libreoffice icons
+  * Fixed 96px hexchat icon
+  * Added icons for xplayer, xviewer, xreader
+  * Added missing credit/licensing information for Moka icons
+  * Removed purple tint in preferences-system and preferences-desktop icons
+  * Changed colors of the gimp icon
+  * Added mimetypes/48+symbolic and places/48+symbolic from Papirus theme (based on Paper theme from Sam Hewitt)
+  * Modified desktop background (inspired by UltraFlat)
+  * Gimp: changed gradient bg and centered logo
+  * Added another command to the README
+  * Fixed file containing space in filename
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 22 Apr 2016 14:56:50 +0100
+
 mint-y-icons (1.0.0) sarah; urgency=low
 
   * Initial version
