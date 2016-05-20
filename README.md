@@ -7,7 +7,7 @@ The application and category icons originate from the Moka icon theme:
 	Author: Sam Hewitt <hewittsamuel@gmail.com>
 	License: Creative Commons Attribution-ShareAlike 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
 
-The mimetypes and places icons originate from the Papirus icon theme:
+The mimetypes icons originate from the Papirus icon theme:
 	Link: https://github.com/varlesh/papirus-suite
 	Author: Alexey Varfolomeev
 	License: Creative Commons Attribution-ShareAlike 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
