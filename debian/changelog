@@ -1,3 +1,12 @@
+mint-y-icons (1.0.2) sarah; urgency=medium
+
+  [ JosephMcc ]
+  * mimetype symbolics: The standard is to use rgb(190,190,190) so lets use it
+  * places: Remove the current places icons
+  * mimetypes: Remove the mimetypes for now
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 21 May 2016 15:22:32 +0100
+
 mint-y-icons (1.0.1) sarah; urgency=medium
 
   [ JosephMcc ]
