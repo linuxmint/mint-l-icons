@@ -1,3 +1,10 @@
+mint-y-icons (1.0.4) serena; urgency=medium
+
+  [ John Beard ]
+  * Link keepassx2 -> keepass
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 05 Nov 2016 15:38:46 +0000
+
 mint-y-icons (1.0.3) sarah; urgency=medium
 
   [ JosephMcc ]
