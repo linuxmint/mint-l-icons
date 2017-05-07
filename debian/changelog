@@ -1,3 +1,32 @@
+mint-y-icons (1.0.5) sonya; urgency=medium
+
+  [ Zeke Y ]
+  * Update Spotify icons
+
+  [ Björn Esser ]
+  * Add symlinks for dnfdragora
+
+  [ Fred Barclay ]
+  * Linked firefox-esr to firefox
+
+  [ JBYoshi ]
+  * Add link for new Skype for Linux icons.
+  * Add 96 pixel link.
+  * Link unity-monodevelop to monodevelop
+
+  [ Björn Esser ]
+  * Add symlinks for lightdm-settings
+
+  [ JBYoshi ]
+  * Link minecraft-launcher to minecraft
+  * Link openjdk-9 to java
+  * Extract mintdrivers from jockey and update all links to it.
+  * Link GDebi icon to system-software-package-manager.
+  * Extract printer from cs-printer.
+  * Link mintbackup to deja-dup.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 07 May 2017 16:08:25 +0100
+
 mint-y-icons (1.0.4) serena; urgency=medium
 
   [ John Beard ]
