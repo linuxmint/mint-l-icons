@@ -1,3 +1,11 @@
+mint-y-icons (1.0.6) sonya; urgency=medium
+
+  [ Jonathan Browne ]
+  * Add links for icons used in Gnome and Cinnamon. (#28)
+  * Add icons for mintupdate. (#29)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 12 May 2017 15:30:33 +0100
+
 mint-y-icons (1.0.5) sonya; urgency=medium
 
   [ Zeke Y ]
