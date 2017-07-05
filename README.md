@@ -7,6 +7,10 @@ The application and category icons originate from the Moka icon theme:
 	Author: Sam Hewitt <hewittsamuel@gmail.com>
 	License: Creative Commons Attribution-ShareAlike 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
 
+The folder icons originate from the Arc icon theme:
+	Link: https://github.com/horst3180/arc-icon-theme
+	Author: horst3180 http://horst3180.deviantart.com
+
 License
 =======
 
