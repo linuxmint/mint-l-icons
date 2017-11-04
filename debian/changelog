@@ -1,3 +1,19 @@
+mint-y-icons (1.0.9) sylvia; urgency=medium
+
+  [ JosephMcc ]
+  * Update README.md
+  * places: Add new @2 folders for HiDPI (#34)
+
+  [ Björn Esser ]
+  * Add symlinks for Tilix (#35)
+  * Create symlinks for modem-manager-gui (#36)
+  * Add eye-candy for online-accounts (#37)
+
+  [ Moonchild ]
+  * Remove Pale Moon icon override (incorrect/unrelated icon) (#39)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 04 Nov 2017 11:22:25 +0000
+
 mint-y-icons (1.0.8) sonya; urgency=medium
 
   [ JosephMcc ]
