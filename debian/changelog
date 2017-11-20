@@ -1,3 +1,10 @@
+mint-y-icons (1.1.1) sylvia; urgency=medium
+
+  [ NikoKrause ]
+  * Add Timeshift (#41)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 20 Nov 2017 10:14:16 +0000
+
 mint-y-icons (1.1.0) sylvia; urgency=medium
 
   * Add whatsapp
