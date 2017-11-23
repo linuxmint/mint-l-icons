@@ -1,3 +1,16 @@
+mint-y-icons (1.1.2) sylvia; urgency=medium
+
+  [ NikoKrause ]
+  * Fix battlenet icon (#45)
+  * Fix WhatsApp icon (#44)
+  * Fix Steam icon (#47)
+  * Fix mono-runtime icon (#46)
+  * Update atom icon and add atom-beta (#50)
+  * Add discord (#49)
+  * Move timeshift.svg (#48)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 23 Nov 2017 09:50:05 +0000
+
 mint-y-icons (1.1.1) sylvia; urgency=medium
 
   [ NikoKrause ]
