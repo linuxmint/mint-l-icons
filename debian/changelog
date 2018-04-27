@@ -1,3 +1,138 @@
+mint-y-icons (1.1.4) tara; urgency=medium
+
+  [ JosephMcc ]
+  * Fix our icon for nemo (#58)
+
+  [ NikoKrause ]
+  * Add render-bitmaps script (#59)
+  * svg backports from Moka (character: A)
+  * re-render bitmaps with script
+  * Backport Moka icons (character: B)
+  * re-render bitmaps with script
+  * Backport Moka icons (character: C)
+  * re-render bitmaps with script
+  * Backport Moka icons (character: D)
+  * re-render bitmaps with script
+  * Backport Moka icons (character: E)
+  * re-render bitmaps with script
+  * Backport Moka icons (character: F)
+  * re-render bitmaps with script
+  * Backport Moka icons (character: G)
+  * re-render bitmpas with script
+  * Backport Moka icon (character: H)
+  * re-render bitmaps with script
+  * Backport Moka icons (character: I)
+  * re-render bitmaps with script
+  * Backport Moka icons (character: J)
+  * re-render bitmaps with script
+  * Backport Moka icons (character: K)
+  * re-render bitmaps with script
+  * Backport Moka icons (character: L)
+  * re-render bitmpas with script
+  * Backport Moka icons (character: M)
+  * re-render bitmaps with script
+  * Backport Moka icon (character: N)
+  * re-render bitmaps with script
+  * Backport Moka icons (character: O)
+  * re-render bitmaps with script
+  * Backport Moka icons (character: P)
+  * re-render bitmaps with script
+  * Backport Moka icons (character: Q)
+  * re-render bitmaps with script
+  * Backport Moka icons (character: R)
+  * re-render bitmaps with script
+  * Backport Moka icons (character: S)
+  * re-render bitmaps with script
+  * Backport Moka icons (character: T)
+  * re-render bitmaps with script
+  * Backport Moka icons (character: U)
+  * re-render bitmaps with script
+  * Backport Moka icon (character: V)
+  * re-rendered bitmaps with script
+  * Backport Moka icons (character: W)
+  * re-rendered bitmaps with script
+  * Backport Moka icons (character: X)
+  * re-rendered bitmaps with script
+  * Backport Moka icons (characters: Y and Z)
+  * re-renderd bitmaps with script
+  * Backport Moka icons (numbers)
+  * Backport Moka icons (web-*)
+  * re-rendered bitmaps with script
+  * Created im-chooser icon (#88)
+  * Fix some names/duplicates/symbolic links, add missing icons
+  * add new src files, improve duplicates/symbolic links
+  * re-render bitmaps with script
+  * some more improvements
+  * a few more new svg icons, and symbolic link improvements
+  * render bitmaps with script
+  * remove duplicate whatsapp icon
+  * add new frozen-bubble icon
+  * add new icon for pillarsofeternity
+  * fix 96px icons
+  * remove action icons from apps dir (#89)
+  * Add script to create symbolic links for apps
+  * Create symbolic links with script
+  * add @2x for apps in index.theme
+  * Add support for @2x icon in render script
+  * rendered @2x apps icons
+  * create symbolic links for @2x apps icons with script
+  * adapt symbolic links script for categories
+  * add missing svgs for categories
+  * add @2x categories to index.theme
+  * render @2x categories icons
+  * create symbolic links for categories @2x with script
+  * add @2x action icons
+  * add symbolic links for @2x action icons
+  * add cs-input symbolic link
+  * replace cs-desktop icon (#91)
+  * add keyboard icon (#92)
+  * add icon for pix (#98)
+  * add new icon for mintupdate (#97)
+  * add new JabRef icon (#96)
+  * add scanner icon (backport from Moka) (#95)
+  * add symbolic links to list for flatpak apps (#93)
+  * improve texstudio icon (#106)
+  * improve texmaker icon (#107)
+  * add evince icon (#104)
+  * change mintupdate icon (#103)
+  * add cs-network icon (#102)
+  * use blue background color for okular icon (#101)
+  * add new thunderbird icon (#100)
+  * add mintwelcome icon (#99)
+  * add mintupload icon (#108)
+  * add mintreport icon (#111)
+  * remove wrong symbolic link hedgewars (#110)
+
+  [ JosephMcc ]
+  * symbolics: Add document, folder, and tab new (#112)
+  * Fallback on Adwaita instead of Mint-X (#113)
+
+  [ NikoKrause ]
+  * Symbolics: Add user/avatar icons (#116)
+  * Symbolics: Add view-continous icon (#117)
+
+  [ JosephMcc ]
+  * Symbolics: Add navigation icons (#115)
+
+  [ NikoKrause ]
+  * fix render script for Mint19 (#118)
+  * add symbolics apps/status to index theme (#119)
+  * Fix symlinks script, add symlink for gnome-power-stats (#120)
+  * add user-trash-full-symbolic (#121)
+  * add camera symbolic icons (#123)
+  * add mintinstall icon (#124)
+  * battery-full-charged-symbolic (#125)
+
+  [ JosephMcc ]
+  * Add dialog icons from Arc (#126)
+
+  [ NikoKrause ]
+  * add system-switch-user-symbolic (#127)
+  * add several symbolics (#128)
+  * improve go-history symbolics (#129)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 27 Apr 2018 13:30:46 +0100
+
 mint-y-icons (1.1.3) sylvia; urgency=medium
 
   [ NikoKrause ]
