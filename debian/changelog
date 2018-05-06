@@ -1,3 +1,24 @@
+mint-y-icons (1.1.5) tara; urgency=medium
+
+  [ NikoKrause ]
+  * fix user-info-symbolic (#131)
+
+  [ JosephMcc ]
+  * Add Aqua and Blue folder color variations
+  * Add brown folders
+
+  [ NikoKrause ]
+  * create symbolic link for xfburn (#132)
+  * add folder-new and bookmark-new symbolics (#133)
+  * add zoom-icons (#138)
+  * add nm-signal icons (22/24/32 + @2x) (#135)
+  * improve/add folder symbolics (#134)
+  * add drive-removable-media-usb symbolic link (#136)
+  * add drive-harddisk-usb-symbolic (#137)
+  * add security-symbolics (#139)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 06 May 2018 17:41:56 +0100
+
 mint-y-icons (1.1.4) tara; urgency=medium
 
   [ JosephMcc ]
