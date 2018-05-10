@@ -7,6 +7,6 @@ Standards-Version: 3.9.5
 
 Package: mint-y-icons
 Architecture: all
-Description: Mint-Y Icon themes
- A flat, colorful, and modern themes based on
+Description: Mint-Y icon theme
+ A flat, colorful, and modern theme based on
  Paper and Moka.
