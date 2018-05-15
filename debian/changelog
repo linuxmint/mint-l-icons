@@ -1,3 +1,38 @@
+mint-y-icons (1.1.6) tara; urgency=medium
+
+  [ JosephMcc ]
+  * Add grey folders
+  * Add orange folders
+  * Add pink folders
+  * Add purple folders
+
+  [ NikoKrause ]
+  * add links for GOA (GNOME Online Accounts) (#141)
+  * fix drive-harddisk-usb-symbolic (#142)
+
+  [ Clement Lefebvre ]
+  * Packaging: Fix description
+
+  [ JosephMcc ]
+  * Add red folders
+  * Add sand folders
+
+  [ NikoKrause ]
+  * symbolics: make some icons solid (#143)
+  * move cs-printer to categories
+  * move cs-applets to categories
+  * move cs-backgrounds to categories
+  * move cs-bluetooth to categories
+  * move cs-(mouse,network,tablet,tiling,desktop) to categories
+  * move cs-cat* and cs-color to categories
+  * move cs-d* to categories
+  * cs-cat-appearance to symbolic link
+  * cs-(extensions,firewall,fonts,general) moved to categories
+  * improve default-apps and cs-fonts icons
+  * improve cs-printer
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 15 May 2018 20:25:52 +0100
+
 mint-y-icons (1.1.5) tara; urgency=medium
 
   [ NikoKrause ]
