@@ -11,7 +11,7 @@ if __name__ == '__main__':
             sys.exit()
 
         sizes = ["16", "22", "24", "32", "48", "64", "96", "256"]
-        types = ["apps", "actions"]
+        types = ["apps", "actions", "places"]
 
         if icontype not in types:
             print ("Unknown icon type: %s" % icontype)
