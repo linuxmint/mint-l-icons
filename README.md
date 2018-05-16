@@ -3,13 +3,22 @@ Credits
 =======
 
 The application and category icons originate from the Moka icon theme:
-	* Link: https://github.com/moka-project/moka-icon-theme
-	* Author: Sam Hewitt <hewittsamuel@gmail.com>
-	* License: Creative Commons Attribution-ShareAlike 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+* Link: https://github.com/moka-project/moka-icon-theme
+* Author: Sam Hewitt <hewittsamuel@gmail.com>
+* License: Creative Commons Attribution-ShareAlike 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
 
 The folder icons originate from the Arc icon theme:
-	* Link: https://github.com/horst3180/arc-icon-theme
-	* Author: horst3180 http://horst3180.deviantart.com
+
+* Link: https://github.com/horst3180/arc-icon-theme
+* Author: horst3180 http://horst3180.deviantart.com
+* License: GPLv3
+
+The device icons originate from the Paper icon theme:
+
+* Link: https://github.com/snwh/paper-icon-theme
+* Author: Sam Hewitt <hewittsamuel@gmail.com>
+* License: Creative Commons Attribution-ShareAlike 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
 
 License
 =======
