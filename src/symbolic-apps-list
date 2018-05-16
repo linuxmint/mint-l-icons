@@ -764,15 +764,6 @@ system-error.png <- apport.png
 system-error.png <- bug-buddy.png
 system-error.png <- gnome-abrt.png
 system-error.png <- kbugbuster.png
-system-file-manager.png <- athena.png
-system-file-manager.png <- file-manager.png
-system-file-manager.png <- kfm.png
-system-file-manager.png <- nautilus-actions-config-tool.png
-system-file-manager.png <- nautilus.png
-system-file-manager.png <- redhat-filemanager.png
-system-file-manager.png <- Thunar.png
-system-file-manager.png <- thunar.png
-system-file-manager.png <- xfce-filemanager.png
 system-help.png <- chmsee-icon.png
 system-help.png <- gnome-help.png
 system-help.png <- gnuchm.png
