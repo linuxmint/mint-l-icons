@@ -1,3 +1,10 @@
+mint-y-icons (1.1.8) tara; urgency=medium
+
+  [ NikoKrause ]
+  * mimetypes: initial commit (#147)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 17 May 2018 09:43:16 +0100
+
 mint-y-icons (1.1.7) tara; urgency=medium
 
   * Fix import-from-other-theme script
@@ -8,7 +15,7 @@ mint-y-icons (1.1.7) tara; urgency=medium
   * Devices: Give video-display a more neutral color
   * Places: system-file-manager link to folder
 
- -- Clement Lefebvre <root@linuxmint.com>  Wed, 16 May 2018 18:39:53 +0100
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 17 May 2018 09:42:49 +0100
 
 mint-y-icons (1.1.6) tara; urgency=medium
 
