@@ -11,7 +11,7 @@ The application and category icons originate from the Moka icon theme:
 The folder icons originate from the Arc icon theme:
 
 * Link: https://github.com/horst3180/arc-icon-theme
-* Author: horst3180 http://horst3180.deviantart.com
+* Author: horst3180 (http://horst3180.deviantart.com)
 * License: GPLv3
 
 The device icons originate from the Paper icon theme:
@@ -19,6 +19,12 @@ The device icons originate from the Paper icon theme:
 * Link: https://github.com/snwh/paper-icon-theme
 * Author: Sam Hewitt <hewittsamuel@gmail.com>
 * License: Creative Commons Attribution-ShareAlike 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+
+The mimetype icons originate from the Elementary icon theme:
+
+* Link: https://github.com/elementary/icons
+* Author: Members of the Elementary OS team (https://github.com/orgs/elementary/people)
+* License: GPLv3 (https://choosealicense.com/licenses/gpl-3.0/)
 
 License
 =======
