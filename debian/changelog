@@ -1,3 +1,16 @@
+mint-y-icons (1.1.9) tara; urgency=medium
+
+  [ NikoKrause ]
+  * re-render apps/categories with optipng (#151)
+  * mimetype: symbolic link for text-x-python3 (#149)
+  * mimetype for ruby (#152)
+  * add mimetype for sql files (#153)
+
+  [ Clement Lefebvre ]
+  * Import action icons from ePapirus
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 20 May 2018 19:32:59 +0100
+
 mint-y-icons (1.1.8) tara; urgency=medium
 
   [ NikoKrause ]
