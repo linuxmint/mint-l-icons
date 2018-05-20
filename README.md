@@ -26,6 +26,12 @@ The mimetype icons originate from the Elementary icon theme:
 * Author: Members of the Elementary OS team (https://github.com/orgs/elementary/people)
 * License: GPLv3 (https://choosealicense.com/licenses/gpl-3.0/)
 
+The action icons originate from the ePapirus theme:
+
+* Link: https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
+* Author: Members of the Papirus Development Team (https://github.com/orgs/PapirusDevelopmentTeam/people)
+* License: GPLv3 (https://choosealicense.com/licenses/gpl-3.0/)
+
 License
 =======
 
