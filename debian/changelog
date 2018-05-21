@@ -1,3 +1,13 @@
+mint-y-icons (1.2.0) tara; urgency=medium
+
+  [ Clement Lefebvre ]
+  * Add devices/symbolic/ac-adapter-symbolic.svg
+
+  [ NikoKrause ]
+  * mimetypes: fix border colors (16px--64px icons) (#154)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 21 May 2018 12:01:22 +0100
+
 mint-y-icons (1.1.9) tara; urgency=medium
 
   [ NikoKrause ]
