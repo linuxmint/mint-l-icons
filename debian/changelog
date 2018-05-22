@@ -1,3 +1,9 @@
+mint-y-icons (1.2.1) tara; urgency=medium
+
+  * Places: Add missing links in color variations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 22 May 2018 10:59:53 +0100
+
 mint-y-icons (1.2.0) tara; urgency=medium
 
   [ Clement Lefebvre ]
