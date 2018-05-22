@@ -8,24 +8,26 @@ if __name__ == '__main__':
         icontype = sys.argv[1]
         iconname = sys.argv[2]
         linknames = sys.argv[3:]
-        for dirname, subdirs, filelist in os.walk("usr/share/icons/Mint-Y/%s" % icontype):
-            for filename in filelist:
-                if filename == iconname:
-                    print("")
-                    iconpath = os.path.join(dirname, iconname)
-                    if os.path.exists(iconpath):
-                        if os.path.islink(iconpath):
-                            print ("!!! SKIPPED: %s is a link! Please fix this manually (it could lead to a circular link situation)." % iconpath)
-                        else:
-                            print("--> %s:" % dirname)
-                            os.chdir(dirname)
-                            for linkname in linknames:
-                                if os.path.exists(linkname):
-                                    print("    rm %s" % linkname)
-                                    os.system("rm %s" % linkname)
-                                print ("    ln -s %s %s" % (iconname, linkname))
-                                os.system("ln -s %s %s" % (iconname, linkname))
-                        os.chdir(basedir)
+        colors = ["", "-Aqua", "-Blue", "-Brown", "-Grey", "-Orange", "-Pink", "-Purple", "-Red", "-Sand"]
+        for color in colors:
+            for dirname, subdirs, filelist in os.walk("usr/share/icons/Mint-Y%s/%s" % (color, icontype)):
+                for filename in filelist:
+                    if filename == iconname:
+                        print("")
+                        iconpath = os.path.join(dirname, iconname)
+                        if os.path.exists(iconpath):
+                            if os.path.islink(iconpath):
+                                print ("!!! SKIPPED: %s is a link! Please fix this manually (it could lead to a circular link situation)." % iconpath)
+                            else:
+                                print("--> %s:" % dirname)
+                                os.chdir(dirname)
+                                for linkname in linknames:
+                                    if os.path.exists(linkname):
+                                        print("    rm %s" % linkname)
+                                        os.system("rm %s" % linkname)
+                                    print ("    ln -s %s %s" % (iconname, linkname))
+                                    os.system("ln -s %s %s" % (iconname, linkname))
+                            os.chdir(basedir)
         print("")
 
     else:
