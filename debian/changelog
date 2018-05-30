@@ -1,3 +1,12 @@
+mint-y-icons (1.2.2) tara; urgency=medium
+
+  [ NikoKrause ]
+  * mimetypes: application-x-trash (#155)
+  * status: add image-loading (#157)
+  * mimetype: for Sass CSS pre-processor file (#158)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 30 May 2018 17:17:42 +0100
+
 mint-y-icons (1.2.1) tara; urgency=medium
 
   * Places: Add missing links in color variations
