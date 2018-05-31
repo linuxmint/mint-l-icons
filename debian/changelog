@@ -1,3 +1,10 @@
+mint-y-icons (1.2.3) tara; urgency=medium
+
+  * Remove audio-volume icons
+  * Revert "add nm-signal icons (22/24/32 + @2x) (#135)"
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 31 May 2018 16:18:12 +0100
+
 mint-y-icons (1.2.2) tara; urgency=medium
 
   [ NikoKrause ]
