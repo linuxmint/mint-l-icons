@@ -1,3 +1,10 @@
+mint-y-icons (1.2.5) tara; urgency=medium
+
+  [ NikoKrause ]
+  * mimetype: video (#164)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 06 Jun 2018 15:04:16 +0100
+
 mint-y-icons (1.2.4) tara; urgency=medium
 
   [ NikoKrause ]
