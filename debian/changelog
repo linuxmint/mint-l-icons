@@ -1,3 +1,9 @@
+mint-y-icons (1.2.7) tara; urgency=medium
+
+  * Add mintstick and mintlocale-im
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 18 Jun 2018 10:03:51 +0200
+
 mint-y-icons (1.2.6) tara; urgency=medium
 
   [ NikoKrause ]
