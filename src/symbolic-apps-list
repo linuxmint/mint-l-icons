@@ -349,6 +349,7 @@ iagno.png <- org.gnome.iagno.png
 ibus.png <- ibus-engine.png
 ibus.png <- ibus-setup.png
 im-chooser.png <- cs-input-method.png
+im-chooser.png <- mintlocale-im.png
 inkscape.png <- org.inkscape.Inkscape.png
 internet-mail.png <- claws-mail.png
 internet-mail.png <- email.png
@@ -831,6 +832,7 @@ uget.png <- uget-icon.png
 usb-creator.png <- unetbootin.png
 usb-creator.png <- usb-creator-gtk.png
 usb-creator.png <- usb-creator-kde.png
+usb-creator.png <- mintstick.png
 user-info.png <- hwinfo.png
 user-info.png <- userinfo.png
 utilities-system-monitor.png <- chrome-ocjnemjmlhjkeilmaidemofakmpclcbi-Default.png
@@ -1152,4 +1154,3 @@ yast.png <- yast2.png
 zsnes.png <- com.snes9x.Snes9x.png
 zsnes.png <- snes9x-gtk.png
 zsnes.png <- snes9x.png
-
