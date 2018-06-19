@@ -1,3 +1,11 @@
+mint-y-icons (1.2.8) tara; urgency=medium
+
+  * Add a script to render mimetypes
+  * mimetypes: Change the icon for .deb files
+  * Devices: remove label on 16/22/24/32px driver-harddisk
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 19 Jun 2018 09:23:09 +0200
+
 mint-y-icons (1.2.7) tara; urgency=medium
 
   * Add mintstick and mintlocale-im
