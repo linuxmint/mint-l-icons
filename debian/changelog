@@ -1,3 +1,14 @@
+mint-y-icons (1.2.9) tara; urgency=medium
+
+  * Import panel icons from Papirus
+  * Remove status/nm-signal* icons
+  * Panel: Add NM connection animation
+  * Panel: Remove blueberry and mintupdate
+  * Panel: Darken 16px icons
+  * Add NM notification icons
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 21 Jun 2018 22:26:58 +0200
+
 mint-y-icons (1.2.8) tara; urgency=medium
 
   * Add a script to render mimetypes
