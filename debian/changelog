@@ -1,3 +1,12 @@
+mint-y-icons (1.3.1) tessa; urgency=medium
+
+  * Add symbolic icons for Redshift status icon
+  * Panel: Switch onboard icon to symbolic
+  * Add symbolic icons for mate-volume-control-applet
+  * Fix nm icons
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 03 Oct 2018 16:08:40 +0100
+
 mint-y-icons (1.3.0) tara; urgency=medium
 
   * Panel: Remove symbolics in 16/22/24
