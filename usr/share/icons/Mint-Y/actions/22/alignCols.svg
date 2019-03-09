@@ -54,7 +54,7 @@
     <style
        id="current-color-scheme"
        type="text/css">
-   .ColorScheme-Text { color:#6e6e6e; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#404040; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   </defs>
   <g
@@ -64,12 +64,12 @@
        inkscape:connector-curvature="0"
        id="path5"
        d="M 8,3 V 4 H 4 v 14 h 4 v 1 h 2 v -1 h 8 V 4 H 10 V 3 Z M 6,6 H 8 V 8 H 6 Z m 4,0 h 6 c 0,3 0,6.547852 0,10 H 10 V 14 8 Z m -4,4 h 2 v 1 1 H 6 Z m 0,4 h 2 v 2 H 6 Z"
-       style="fill:#6e6e6e;fill-opacity:1" />
+       style="fill:#404040;fill-opacity:1" />
     <path
        sodipodi:nodetypes="cccc"
        id="path5-3"
        d="M 14,15 10,11 14,7 Z"
-       style="fill:#6e6e6e;fill-opacity:1"
+       style="fill:#404040;fill-opacity:1"
        inkscape:connector-curvature="0" />
   </g>
 </svg>

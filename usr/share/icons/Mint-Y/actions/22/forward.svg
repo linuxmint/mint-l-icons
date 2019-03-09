@@ -26,17 +26,17 @@
     <style
        id="current-color-scheme"
        type="text/css">
-   .ColorScheme-Text { color:#6e6e6e; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#404040; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   </defs>
   <path
      d="m 10.999998,4.9688003 -1.4062496,1.375 3.6562496,3.6562497 -8.2499996,-0.0313 V 11.96875 L 13.249998,12 9.5937484,15.625 10.999998,17 l 6,-6.03125 -6,-5.9999997 z"
      id="path5849"
-     style="fill:#6e6e6e;fill-opacity:1" />
+     style="fill:#404040;fill-opacity:1" />
   <g
      transform="translate(-258.00018,-25)"
      id="g834"
-     style="fill:#6e6e6e;fill-opacity:1">
+     style="fill:#404040;fill-opacity:1">
     <rect
        transform="rotate(90)"
        id="rect20747"
@@ -46,7 +46,7 @@
        height="2"
        rx="0.38462001"
        ry="0.37878999"
-       style="color:#000000;fill:#6e6e6e;fill-opacity:1;enable-background:new" />
+       style="color:#000000;fill:#404040;fill-opacity:1;enable-background:new" />
     <rect
        transform="rotate(90)"
        id="rect20749"
@@ -56,7 +56,7 @@
        height="2"
        rx="0.38462001"
        ry="0.37878999"
-       style="color:#000000;fill:#6e6e6e;fill-opacity:1;enable-background:new" />
+       style="color:#000000;fill:#404040;fill-opacity:1;enable-background:new" />
     <rect
        transform="rotate(90)"
        id="rect20751"
@@ -66,6 +66,6 @@
        height="2"
        rx="0.38462001"
        ry="0.37878999"
-       style="color:#000000;fill:#6e6e6e;fill-opacity:1;enable-background:new" />
+       style="color:#000000;fill:#404040;fill-opacity:1;enable-background:new" />
   </g>
 </svg>

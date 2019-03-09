@@ -26,11 +26,11 @@
     <style
        id="current-color-scheme"
        type="text/css">
-   .ColorScheme-Text { color:#6e6e6e; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#404040; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   </defs>
   <path
-     style="color:#6e6e6e;fill:currentColor"
+     style="color:#404040;fill:currentColor"
      d="M 6.1875,5 C 5.5248,5 5,5.54895 5,6.21875 V 10 H 7 V 7 h 3 V 5 Z M 12,5 v 2 h 3 v 3 h 2 V 6.21875 C 17,5.54885 16.4755,5 15.8125,5 Z m -2,3 -3,3 3,3 v -2 h 2 v 2 l 3,-3 -3,-3 v 2 h -2 z m -5,4 v 3.78125 C 5,16.45125 5.5248,17 6.1875,17 H 10 V 15 H 7 v -3 z m 10,0 v 3 h -3 v 2 h 3.8125 C 16.4755,17 17,16.45125 17,15.78125 V 12 Z"
      id="path5" />
 </svg>

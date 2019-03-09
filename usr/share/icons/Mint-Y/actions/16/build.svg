@@ -54,12 +54,12 @@
     <style
        id="current-color-scheme"
        type="text/css">
-   .ColorScheme-Text { color:#6e6e6e; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#404040; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   </defs>
   <path
      inkscape:connector-curvature="0"
-     style="color:#6e6e6e;fill:#6e6e6e;fill-opacity:1"
+     style="color:#404040;fill:#404040;fill-opacity:1"
      d="M 1,1 V 15 L 6,11.111328 V 15 L 15,8 6,1 v 3.8886719 z"
      id="path5-3-3" />
 </svg>

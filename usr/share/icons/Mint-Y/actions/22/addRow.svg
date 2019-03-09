@@ -54,11 +54,11 @@
     <style
        id="current-color-scheme"
        type="text/css">
-   .ColorScheme-Text { color:#6e6e6e; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#404040; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   </defs>
   <path
-     style="color:#6e6e6e;fill:currentColor"
+     style="color:#404040;fill:currentColor"
      d="m 4,4 v 8 h 2 v -2 h 2 v 2 h 2 v -2 h 2 v 2 h 2 v -2 h 2 v 2 h 2 V 4 Z M 6,6 H 8 V 8 H 6 Z m 4,0 h 2 v 2 h -2 z m 4,0 h 2 v 2 h -2 z m -9,7 v 1 H 6.28125 L 5,15.28125 v 1.4375 L 7.71875,14 h 2.5625 l -3,3 H 5 v 1 H 17 V 17 H 16.71875 L 17,16.71875 v -1.4375 C 16.427083,15.854167 15.854167,16.427083 15.28125,17 h -2.5625 l 3,-3 H 17 v -1 z m 6.71875,1 h 2.5625 l -3,3 h -2.5625 z"
      id="path5"
      inkscape:connector-curvature="0"

@@ -26,11 +26,11 @@
     <style
        id="current-color-scheme"
        type="text/css">
-   .ColorScheme-Text { color:#6e6e6e; } .ColorScheme-Highlight { color:#5294e2; }
+   .ColorScheme-Text { color:#404040; } .ColorScheme-Highlight { color:#5294e2; }
   </style>
   </defs>
   <path
-     style="fill:#6e6e6e;fill-opacity:1;stroke-width:0.99870044"
+     style="fill:#404040;fill-opacity:1;stroke-width:0.99870044"
      d="M 5,12 10.98442,6.0000001 17,12 15.62857,13.406251 12.01299,9.75 11.98187,18 H 9.98706 l 0.0311,-8.25 -3.64675,3.656251 z M 5.9974,3 h 9.97403 V 5.0000001 H 5.9974 Z"
      id="path5849" />
 </svg>
