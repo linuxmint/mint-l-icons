@@ -1,3 +1,41 @@
+mint-y-icons (1.3.4) tina; urgency=medium
+
+  [ MaxeeDonut ]
+  * add electron icon (#209)
+
+  [ NikoKrause ]
+  * add kpat icon (#199)
+  * mintwelcome: small improvement (#200)
+
+  [ MaxeeDonut ]
+  * add notable icon (#222)
+  * add ardour5 symbolic link (#205)
+  * add gnome-system-monitor symbolic link (#206)
+  * add scilab icon (#210)
+  * Add leocad icon (#208)
+  * Postman icon (#201)
+  * Add avogadro icon (part of #169 request) (#211)
+  * add notepadqq icon (#220)
+  * Add cudatext icon + symbolic link (#221)
+
+  [ Rebecca Wallander ]
+  * Add some Flathub apps to symbolic-apps-list (#203)
+  * Add Stepmania icon (#204)
+  * Add Katawa Shoujo icon (#202)
+
+  [ MaxeeDonut ]
+  * add dockstation icon (#226)
+
+  [ Clement Lefebvre ]
+  * Darken action icons from #6e6e6e to #404040
+  * Add dark sets
+  * Build: Don't fix permissions
+  * Remove color fullcolor action help icons
+  * Mint-Y-Dark: Remove user-trash* action icons
+  * Dark icons: Remove dialog icons
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 02 Jul 2019 17:42:07 +0200
+
 mint-y-icons (1.3.3) tessa; urgency=medium
 
   [ NikoKrause ]
