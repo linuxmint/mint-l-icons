@@ -1,3 +1,10 @@
+mint-y-icons (1.3.7) tricia; urgency=medium
+
+  * Fix nm-applets symbolic icons
+  * MATE: Fix mate-media sound icons
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 29 Nov 2019 18:45:32 +0000
+
 mint-y-icons (1.3.6) tricia; urgency=medium
 
   * Don't rely on debhelper to update icon caches
