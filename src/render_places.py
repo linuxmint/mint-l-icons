@@ -10,7 +10,7 @@ sizes = ["16", "22", "24", "32", "48", "64", "96", "128"]
 def generate_color(color):
     source = "places/" + color.lower() + ".svg"
     if color == "Green":
-        theme_dir = "../usr/share/icons/Mint-Y" % color
+        theme_dir = "../usr/share/icons/Mint-Y"
     else:
         theme_dir = "../usr/share/icons/Mint-Y-%s" % color
     os.system("mkdir -p %s" % theme_dir)
@@ -35,9 +35,16 @@ def generate_color(color):
                 print("Rendering %s" % icon_path)
                 os.system("inkscape --export-id=%s \
                                --export-id-only \
-                               --export-dpi=180 \
+                               --export-dpi=192 \
                                --export-png=%s %s >/dev/null \
                      && optipng -o7 --quiet %s" % (name, icon_path, source, icon_path))
+
+def parse_arg(arg):
+    if arg == "All":
+        for color in colors:
+            generate_color(color)
+    else:
+        generate_color(arg)
 
 def usage():
     print ("Usage: render_places.py color \n\
@@ -47,4 +54,4 @@ def usage():
 if len(sys.argv) != 2:
     usage()
 else:
-    generate_color(sys.argv[1])
+    parse_arg(sys.argv[1])
