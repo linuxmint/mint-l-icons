@@ -89,6 +89,7 @@ archive-manager.png <- archive-mounter.png
 archive-manager.png <- ark.png
 archive-manager.png <- engrampa.png
 archive-manager.png <- file-roller.png
+archive-manager.png <- org.gnome.ArchiveManager.png
 archive-manager.png <- p7zip.png
 archive-manager.png <- utilities-file-archiver.png
 archive-manager.png <- xarchiver.png
@@ -209,7 +210,9 @@ disk-burner.png <- ripperx.png
 disks.png <- gnome-device-manager.png
 disks.png <- gnome-disks.png
 disks.png <- palimpsest.png
+disks.png <- org.gnome.DiskUtility.png
 disk-usage-analyzer.png <- baobab.png
+disk-usage-analyzer.png <- org.gnome.baobab.png
 disk-usage-analyzer.png <- filelight.png
 disk-usage-analyzer.png <- mate-disk-usage-analyzer.png
 disk-usage-analyzer.png <- serpentine.png
@@ -312,6 +315,7 @@ gnome-quadrapassel.png <- quadrapassel.png
 gnome-screenshot.png <- applets-screenshooter.png
 gnome-screenshot.png <- ksnapshot.png
 gnome-screenshot.png <- simplescreenrecorder.png
+gnome-screenshot.png <- org.gnome.Screenshot.png
 gnome-software.png <- org.gnome.Software.png
 gnome-sound-recorder.png <- audio-recorder.png
 gnome-sound-recorder.png <- sound-recorder.png
@@ -482,6 +486,7 @@ logviewer.png <- gpk-log.png
 logviewer.png <- logview.png
 logviewer.png <- system-utilities-logviewer.png
 logviewer.png <- utilities-log-viewer.png
+logviewer.png <- org.gnome.Logs.png
 lollypop.png <- org.gnome.Lollypop.png
 lutris.png <- jstest-gtk.png
 mahjongg.png <- gnome-mahjongg.png
@@ -577,6 +582,7 @@ passwords.png <- password.png
 passwords.png <- preferences-desktop-user-password.png
 passwords.png <- revelation.png
 passwords.png <- seahorse.png
+passwords.png <- org.gnome.seahorse.Application.png
 passwords.png <- seahorse-preferences.png
 pdfmod.png <- pdfchain.png
 pdfsam.png <- gscan2pdf.png
@@ -615,6 +621,7 @@ preferences-desktop-display.png <- mate-preferences-desktop-display.png
 preferences-desktop-display.png <- unity-display-panel.png
 preferences-desktop-font.png <- fonts.png
 preferences-desktop-font.png <- font-viewer.png
+preferences-desktop-font.png <- org.gnome.font-viewer.png
 preferences-desktop-font.png <- gnome-settings-font.png
 preferences-desktop-font.png <- kfontview.png
 preferences-desktop-keyboard.png <- cs-keyboard.png
@@ -742,8 +749,10 @@ remote-desktop.png <- preferences-desktop-remote-desktop.png
 remote-desktop.png <- remmina.png
 retroarch.png <- org.libretro.RetroArch.png
 rhythmbox.png <- org.gnome.Rhythmbox3.png
+rhythmbox.png <- org.gnome.Rhythmbox.png
 rygel.png <- steam_icon_570.png
 samba.png <- system-config-samba.png
+scanner.png <- org.gnome.SimpleScan.png
 screenruler.png <- screenruler-icon.png
 selinux.png <- setroubleshoot_icon.png
 selinux.png <- system-config-selinux.png
@@ -876,6 +885,7 @@ utilities-terminal.png <- terminal-tango.png
 utilities-terminal.png <- terra.png
 utilities-terminal.png <- tilda.png
 utilities-terminal.png <- xfce-terminal.png
+utilities-terminal.png <- org.gnome.Terminal.png
 vala.png <- valama.png
 varicad.png <- varicad-viewer.png
 video-editor.png <- avidemux.png
