@@ -1,3 +1,41 @@
+mint-y-icons (1.3.8) ulyana; urgency=medium
+
+  [ Clement Lefebvre ]
+  * Add script to render device icons
+  * Remove all fullcolor panel audio icons
+  * Panel: remove indicator-keyboard*
+
+  [ JosephMcc ]
+  * Add svg templates for the folders
+  * Add the teal folder template
+
+  [ Clement Lefebvre ]
+  * Move places svg to src/places
+  * Add a script to render places icons
+
+  [ JosephMcc ]
+  * render_places.py: Fix a couple of issues
+  * green places: Fix some issues with the src template
+  * Rerender all places icons
+
+  [ Clement Lefebvre ]
+  * places/green.svg: Fix 24px music and documents icons
+  * Re-generate green places icons
+  * places/green.svg: Fix different shade of green on one of the icons
+  * src/places: Move trash icons to extra.svg
+  * src/places: Add a script to generate color variations
+  * src/places: Regenerate color variations svgs
+  * places: Regenerate pngs
+  * src/places: Replace darker green color in the border with shadow
+  * src/places: Regenerate SVGs
+  * places: Regenerate PNGs
+  * Update Pink color (#247)
+  * Update Pink places
+  * Update Aqua places
+  * Create links to adapt to name changes in GNOME apps
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 11 Apr 2020 13:28:02 +0100
+
 mint-y-icons (1.3.7) tricia; urgency=medium
 
   * Fix nm-applets symbolic icons
