@@ -1,3 +1,9 @@
+mint-y-icons (1.4.1) ulyana; urgency=medium
+
+  * Remove panel icons
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 22 May 2020 12:54:44 +0100
+
 mint-y-icons (1.4.0) ulyana; urgency=medium
 
   [ Clement Lefebvre ]
