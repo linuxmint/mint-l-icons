@@ -1,3 +1,27 @@
+mint-y-icons (1.4.2) ulyana; urgency=medium
+
+  [ NikoKrause ]
+  * add system-reboot-symbolic
+  * adapt mintupdate app icon to new symbolic version (#253)
+  * mimetypes: add x-pem-key icon
+  * mimetypes: create symlink for pgp-encrypted files
+  * Fix mintwelcome icon
+  * Add app icon for GCstar
+  * Add mimetype icon for GCstar
+
+  [ Clement Lefebvre ]
+  * Revert "Update Orange places"
+  * Revert "Update Grey places"
+  * Revert "Update Purple places"
+  * Revert "Update Red places"
+  * Revert "Update Teal places"
+  * Revert "Update Sand places"
+  * Revert "Update Blue places"
+  * Revert "Update Aqua places"
+  * Revert "Update Pink places"
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 06 Jun 2020 11:09:20 +0100
+
 mint-y-icons (1.4.1) ulyana; urgency=medium
 
   * Remove panel icons
