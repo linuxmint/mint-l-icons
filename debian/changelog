@@ -1,3 +1,20 @@
+mint-y-icons (1.4.4) ulyana; urgency=medium
+
+  [ NikoKrause ]
+  * brave-browser icon
+
+  [ Archisman Panigrahi ]
+  * Fix GNOME Screen Recorder Icon
+  * evince.png <- org.gnome.Evince.png
+
+  [ Clement Lefebvre ]
+  * Change cs-general to make it look like preferences-desktop
+
+  [ NikoKrause ]
+  * add application-certificate icon
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 03 Dec 2020 11:26:43 +0000
+
 mint-y-icons (1.4.3) ulyana; urgency=medium
 
   * Add org.gnome.SystemMonitor
