@@ -1,3 +1,13 @@
+mint-y-icons (1.4.6) ulyssa; urgency=medium
+
+  [ NikoKrause ]
+  * create symbolic links for new favorites icons
+  * add folder-recent-symbolic icon
+  * Change generic mystery person
+  * Add hypnotix icon (#274)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 08 Dec 2020 10:44:25 +0000
+
 mint-y-icons (1.4.5) ulyssa; urgency=medium
 
   [ NikoKrause ]
