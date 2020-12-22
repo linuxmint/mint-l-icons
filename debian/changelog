@@ -1,3 +1,11 @@
+mint-y-icons (1.4.7) ulyssa; urgency=medium
+
+  * Remove input-keyboard
+  * Remove links pointing to input-keyboard
+  * Add cinnamon-virtual-keyboard
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 22 Dec 2020 18:00:24 +0000
+
 mint-y-icons (1.4.6) ulyssa; urgency=medium
 
   [ NikoKrause ]
