@@ -1,3 +1,9 @@
+mint-y-icons (1.4.8) ulyssa; urgency=medium
+
+  * Add mate-system-log
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 23 Dec 2020 13:22:14 +0000
+
 mint-y-icons (1.4.7) ulyssa; urgency=medium
 
   * Remove input-keyboard
