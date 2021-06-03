@@ -1,3 +1,17 @@
+mint-y-icons (1.5.1) uma; urgency=medium
+
+  [ NikoKrause ]
+  * Add new battery icons (increments of 10)
+
+  [ Michael Webster ]
+  * Add caps and num-lock symbolic indicator icons.
+  * Make caps-lock and num-lock symbolic icons cinnamon-specific.
+
+  [ Elsie Hupp ]
+  * Icon for Joplin (#280)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 03 Jun 2021 13:30:59 +0100
+
 mint-y-icons (1.5.0) ulyssa; urgency=medium
 
   * Postinst: Generate cache for Yellow themes
