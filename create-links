@@ -8,7 +8,7 @@ if __name__ == '__main__':
         icontype = sys.argv[1]
         iconname = sys.argv[2]
         linknames = sys.argv[3:]
-        colors = ["", "-Aqua", "-Blue", "-Brown", "-Grey", "-Orange", "-Pink", "-Purple", "-Red", "-Sand"]
+        colors = ["", "-Aqua", "-Blue", "-Brown", "-Grey", "-Orange", "-Pink", "-Purple", "-Red", "-Sand", "-Teal", "-Yellow"]
         extensions = [".png", ".svg"]
         for extension in extensions:
             iconname = iconname + extension
