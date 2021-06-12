@@ -1,3 +1,9 @@
+mint-y-icons (1.5.7) uma; urgency=medium
+
+  * Add org.xfce.Dictionary
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 12 Jun 2021 14:39:37 +0100
+
 mint-y-icons (1.5.6) uma; urgency=medium
 
   * Add more Xfce 4.16 icons
