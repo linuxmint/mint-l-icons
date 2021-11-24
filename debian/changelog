@@ -1,3 +1,24 @@
+mint-y-icons (1.5.9) una; urgency=medium
+
+  [ NikoKrause ]
+  * Add symbolic link for .pfx files
+
+  [ JosephMcc ]
+  * Fix some window-* action icons
+
+  [ Clement Lefebvre ]
+  * Add thingy icon
+  * Improve thingy icon
+  * Update firefox icon (#294)
+
+  [ Elsie Hupp ]
+  * src/render-apps-categories-bitmaps.py: Simplify parsing to work with non-Inkscape SVGs (#285)
+
+  [ Clement Lefebvre ]
+  * Remove gradient on Firefox icon
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 24 Nov 2021 14:31:19 +0000
+
 mint-y-icons (1.5.8) uma; urgency=medium
 
   * Add missing teal/yellow links
