@@ -31,10 +31,10 @@
      borderopacity="0.25490196"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="242.27234"
-     inkscape:cy="172.70069"
-     inkscape:current-layer="layer6"
+     inkscape:zoom="2"
+     inkscape:cx="190.05146"
+     inkscape:cy="159.64774"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
@@ -93,8 +93,19 @@
   <defs
      id="defs3">
     <linearGradient
+       id="linearGradient905">
+      <stop
+         style="stop-color:#ff7139;stop-opacity:1"
+         offset="0"
+         id="stop901" />
+      <stop
+         style="stop-color:#ff7139;stop-opacity:1"
+         offset="1"
+         id="stop903" />
+    </linearGradient>
+    <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3984"
+       xlink:href="#linearGradient905"
        id="linearGradient4254"
        x1="35"
        y1="156"
@@ -104,60 +115,60 @@
        gradientTransform="matrix(0,-1,1,0,-12,300)" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3984"
+       xlink:href="#linearGradient905"
        id="linearGradient4256"
        x1="417"
        y1="148"
        x2="431"
        y2="148"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,-1,1,0,276,572)" />
+       gradientTransform="rotate(-90,424,148)" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3984"
+       xlink:href="#linearGradient905"
        id="linearGradient4260"
        x1="418"
        y1="68"
        x2="446"
        y2="68"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,-1,1,0,364,500)" />
+       gradientTransform="rotate(-90,432,68)" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3984"
+       xlink:href="#linearGradient905"
        id="linearGradient4262"
        x1="292"
        y1="244"
        x2="332"
        y2="244"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,-1,1,0,68,556)" />
+       gradientTransform="rotate(-90,312,244)" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3984"
+       xlink:href="#linearGradient905"
        id="linearGradient4264"
        x1="293"
        y1="76"
        x2="379"
        y2="76"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,-1,1,0,260,412)" />
+       gradientTransform="rotate(-90,336,76)" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3984"
+       xlink:href="#linearGradient905"
        id="linearGradient4266"
        x1="291"
        y1="172"
        x2="349"
        y2="172"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,-1,1,0,148,492)" />
+       gradientTransform="rotate(-90,320,172)" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3984"
+       xlink:href="#linearGradient905"
        id="linearGradient3870"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,-1,1,0,316,540)"
+       gradientTransform="rotate(-90,428,112)"
        x1="418"
        y1="112"
        x2="438"
