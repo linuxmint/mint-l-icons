@@ -37,8 +37,6 @@ else:
 # DPI multipliers to render at
 DPIS = [1, 2] # for hidpi icons change to [1, 2] (not yet supported in Mint-Y)
 
-inkscape_process = None
-
 def main(args, SRC):
 
     def optimize_png(png_file):
@@ -46,36 +44,11 @@ def main(args, SRC):
             process = subprocess.Popen([OPTIPNG, '-quiet', '-o7', png_file])
             process.wait()
 
-    def wait_for_prompt(process, command=None):
-        if command is not None:
-            process.stdin.write((command+'\n').encode('utf-8'))
-
-        # This is kinda ugly ...
-        # Wait for just a '>', or '\n>' if some other char appearead first
-        output = process.stdout.read(1)
-        if output == b'>':
-            return
-
-        output += process.stdout.read(1)
-        while output != b'\n>':
-            output += process.stdout.read(1)
-            output = output[1:]
-
-    def start_inkscape():
-        process = subprocess.Popen([INKSCAPE, '--shell'], bufsize=0, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
-        wait_for_prompt(process)
-        return process
-
     def inkscape_render_rect(icon_file, rect, dpi, output_file):
-        global inkscape_process
-        if inkscape_process is None:
-            inkscape_process = start_inkscape()
-
-        cmd = [icon_file,
-               '--export-dpi', str(dpi),
+        process = subprocess.Popen([INKSCAPE, '--batch-process', '--export-dpi', str(dpi),
                '-i', rect,
-               '-e', output_file]
-        wait_for_prompt(inkscape_process, ' '.join(cmd))
+               '-o', output_file, icon_file])
+        process.wait()
         optimize_png(output_file)
 
     class ContentHandler(xml.sax.ContentHandler):
