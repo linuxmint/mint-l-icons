@@ -57,7 +57,7 @@ def main(args, SRC):
         LAYER = 2
         OTHER = 3
         TEXT = 4
-        def __init__(self, path, force=False, filter=None):
+        def __init__(self, path, file_name, force=False, filter=None):
             self.stack = [self.ROOT]
             self.inside = [self.ROOT]
             self.path = path
@@ -66,6 +66,7 @@ def main(args, SRC):
             self.chars = ""
             self.force = force
             self.filter = filter
+            self.file_name = file_name
 
         def endDocument(self):
             pass
@@ -124,7 +125,9 @@ def main(args, SRC):
                 if self.filter is not None and not self.icon_name in self.filter:
                     return
 
-                print (self.context, self.icon_name)
+                if (self.icon_name != self.file_name):
+                    print(f"icon name in {self.file_name} is wrong: {self.icon_name}")
+                    sys.exit(1)
                 for rect in self.rects:
                     for dpi_factor in DPIS:
                         width = rect['width']
@@ -142,19 +145,21 @@ def main(args, SRC):
                             os.makedirs(dir)
                         # Do a time based check!
                         if self.force or not os.path.exists(outfile):
+                            print (self.context, self.icon_name, self.file_name)
                             inkscape_render_rect(self.path, id, dpi, outfile)
-                            sys.stdout.write('.')
+                            #sys.stdout.write('.')
                         else:
                             stat_in = os.stat(self.path)
                             stat_out = os.stat(outfile)
                             if stat_in.st_mtime > stat_out.st_mtime:
+                                print (self.context, self.icon_name, self.file_name)
                                 inkscape_render_rect(self.path, id, dpi, outfile)
-                                sys.stdout.write('.')
-                            else:
-                                sys.stdout.write('-')
+                                #sys.stdout.write('.')
+                            #else:
+                            #    sys.stdout.write('-')
                         sys.stdout.flush()
-                sys.stdout.write('\n')
-                sys.stdout.flush()
+                #sys.stdout.write('\n')
+                #sys.stdout.flush()
 
         def characters(self, chars):
             self.chars += chars.strip()
@@ -166,18 +171,20 @@ def main(args, SRC):
         print ('')
         print ('Rendering from SVGs in', SRC)
         print ('')
-        for file in os.listdir(SRC):
+        for file in sorted(os.listdir(SRC)):
             if file[-4:] == '.svg':
-                file = os.path.join(SRC, file)
-                handler = ContentHandler(file)
-                xml.sax.parse(open(file), handler)
+                path = os.path.join(SRC, file)
+                icon_name = file.replace(".svg", "")
+                handler = ContentHandler(path, icon_name)
+                xml.sax.parse(open(path), handler)
         print ('')
     else:
-        file = os.path.join(SRC, args.svg + '.svg')
+        path = os.path.join(SRC, args.svg + '.svg')
 
-        if os.path.exists(os.path.join(file)):
-            handler = ContentHandler(file, True, filter=args.filter)
-            xml.sax.parse(open(file), handler)
+        if os.path.exists(os.path.join(path)):
+            icon_name = args.svg
+            handler = ContentHandler(path, icon_name, True, filter=args.filter)
+            xml.sax.parse(open(path), handler)
         else:
             # icon not in this directory, try the next one
             pass
