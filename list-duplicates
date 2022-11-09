@@ -72,7 +72,7 @@ def printResults(dict1):
  
 if __name__ == '__main__':
     dups = {}
-    folders = ["usr/share/icons/Mint-Y/apps"]
+    folders = ["usr/share/icons/Mint-Y-Legacy/apps"]
     for i in folders:
         # Iterate the folders given
         if os.path.exists(i):

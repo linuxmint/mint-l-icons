@@ -1,4 +1,4 @@
-Source: mint-y-icons
+Source: mint-y-icons-legacy
 Section: gnome
 Priority: optional
 Maintainer: Clement Lefebvre <root@linuxmint.com>
@@ -6,10 +6,10 @@ Build-Depends:
  debhelper-compat (= 12)
 Standards-Version: 4.5.1
 Rules-Requires-Root: no
-Homepage: https://github.com/linuxmint/mint-y-icons
+Homepage: https://github.com/linuxmint/mint-y-icons-legacy
 
-Package: mint-y-icons
+Package: mint-y-icons-legacy
 Architecture: all
-Description: Mint-Y icon theme
+Description: Mint-Y legacy icon theme
  A flat, colorful, and modern theme based on
  Paper and Moka.

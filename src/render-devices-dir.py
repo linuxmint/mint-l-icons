@@ -4,8 +4,8 @@ import os
 
 for size in [16, 22, 24, 32, 48, 64, 96, 128]:
     source_path = "devices/%s" % size
-    dest_path = "../usr/share/icons/Mint-Y/devices/%s" % size
-    dest2x_path = "../usr/share/icons/Mint-Y/devices/%s@2x" % size
+    dest_path = "../usr/share/icons/Mint-Y-Legacy/devices/%s" % size
+    dest2x_path = "../usr/share/icons/Mint-Y-Legacy/devices/%s@2x" % size
 
     for filename in sorted(os.listdir(source_path)):
         png_filename = filename.replace(".svg", ".png")

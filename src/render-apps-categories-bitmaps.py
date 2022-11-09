@@ -24,7 +24,7 @@ import argparse
 
 INKSCAPE = '/usr/bin/inkscape'
 OPTIPNG = '/usr/bin/optipng'
-MAINDIR = '../usr/share/icons/Mint-Y'
+MAINDIR = '../usr/share/icons/Mint-Y-Legacy'
 SOURCES = ['apps', 'categories']
 
 # the resolution that non-hi-dpi icons are rendered at (may be 90 or 96 depending on your inkscape build)

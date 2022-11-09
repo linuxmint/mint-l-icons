@@ -9,7 +9,7 @@ popd > /dev/null
 
 cd ${DIR}
 
-THEMEDIR=../usr/share/icons/Mint-Y
+THEMEDIR=../usr/share/icons/Mint-Y-Legacy
 
 mkdir -p $THEMEDIR
 
