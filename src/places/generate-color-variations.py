@@ -20,9 +20,9 @@ import os
 SRC = {"folder":"eeca8f","backfolder":"c89e6b","paper":"e4e4e4","line":"92b372","emblem":"575757"}
 GREEN = {"name":"green","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"92b372","emblem":"575757"}
 AQUA = {"name":"aqua","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"1f9ede","emblem":"575757"}
-BLUE = {"name":"blue","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"5b73c4","emblem":"575757"}
+BLUE = {"name":"blue","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"0c75de","emblem":"575757"}
 BROWN = {"name":"brown","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"aa876a","emblem":"575757"}
-GREY = {"name":"grey","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"9d9d9d","emblem":"575757"}
+GREY = {"name":"grey","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"70737a","emblem":"575757"}
 ORANGE = {"name":"orange","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"ff7139","emblem":"575757"}
 PINK = {"name":"pink","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"e54980","emblem":"575757"}
 PURPLE = {"name":"purple","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"8c5dd9","emblem":"575757"}
