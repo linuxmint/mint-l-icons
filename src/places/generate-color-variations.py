@@ -19,16 +19,16 @@ import os
 
 SRC = {"folder":"eeca8f","backfolder":"c89e6b","paper":"e4e4e4","line":"92b372","emblem":"575757"}
 GREEN = {"name":"green","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"92b372","emblem":"575757"}
-AQUA = {"name":"aqua","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"6cabcd","emblem":"575757"}
+AQUA = {"name":"aqua","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"1f9ede","emblem":"575757"}
 BLUE = {"name":"blue","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"5b73c4","emblem":"575757"}
 BROWN = {"name":"brown","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"aa876a","emblem":"575757"}
 GREY = {"name":"grey","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"9d9d9d","emblem":"575757"}
-ORANGE = {"name":"orange","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"db9d61","emblem":"575757"}
+ORANGE = {"name":"orange","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"ff7139","emblem":"575757"}
 PINK = {"name":"pink","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"e54980","emblem":"575757"}
-PURPLE = {"name":"purple","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"8c6ec9","emblem":"575757"}
-RED = {"name":"red","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"c15b58","emblem":"575757"}
-SAND = {"name":"sand","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"c8ac69","emblem":"575757"}
-TEAL = {"name":"teal","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"5aaa9a","emblem":"575757"}
+PURPLE = {"name":"purple","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"8c5dd9","emblem":"575757"}
+RED = {"name":"red","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"e82127","emblem":"575757"}
+SAND = {"name":"sand","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"c5a07c","emblem":"575757"}
+TEAL = {"name":"teal","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"199ca8","emblem":"575757"}
 
 VARIANTS = [GREEN, AQUA, BLUE, BROWN, GREY, ORANGE, PINK, PURPLE, RED, SAND, TEAL]
 
