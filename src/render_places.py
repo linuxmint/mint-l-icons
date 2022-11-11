@@ -21,23 +21,34 @@ def generate_color(color):
         os.system("mkdir -p %s" % icon_dir)
         os.system("mkdir -p %s" % icon_dir_2x)
         names = subprocess.check_output("inkscape -S %s | grep -E \"_%s\" | sed 's/\,.*$//'" % (source, size), shell=True).decode("UTF-8")
+
+        handles = []
         for name in names.split("\n"):
+
             if "_" in name:
                 icon_name = name.replace("_%s" % size, "")
                 icon_path = os.path.join(icon_dir, icon_name + ".png")
                 print("Rendering %s" % icon_path)
-                os.system("inkscape --export-id=%s \
+                handle = subprocess.Popen("inkscape --export-id=%s \
                                --export-id-only \
                                --export-filename=%s %s >/dev/null \
-                     && optipng -o7 --quiet %s" % (name, icon_path, source, icon_path))
+                     && optipng -o7 --quiet %s" % (name, icon_path, source, icon_path), shell=True)
+                handles.append(handle)
 
                 icon_path = os.path.join(icon_dir_2x, icon_name + ".png")
                 print("Rendering %s" % icon_path)
-                os.system("inkscape --export-id=%s \
+                handle = subprocess.Popen("inkscape --export-id=%s \
                                --export-id-only \
                                --export-dpi=192 \
                                --export-filename=%s %s >/dev/null \
-                     && optipng -o7 --quiet %s" % (name, icon_path, source, icon_path))
+                     && optipng -o7 --quiet %s" % (name, icon_path, source, icon_path), shell=True)
+                handles.append(handle)
+
+        n = len(handles)
+        for handle in handles:
+            print("waiting for processes.... %d" % n)
+            n-=1
+            handle.wait()
 
 def parse_arg(arg):
     if arg == "All":
