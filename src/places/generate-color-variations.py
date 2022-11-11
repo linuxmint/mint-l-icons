@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 import os
 
-# This script uses green.svg and generates the following files from it:
+# This script uses src.svg and generates the following files from it:
 #
+# green.svg
 # aqua.svg
 # blue.svg
 # brown.svg
@@ -15,21 +16,27 @@ import os
 # teal.svg
 
 # It uses the following color table to do so:
-COLORS = {}
-COLORS["aqua"] = "66a8cb"
-COLORS["blue"] = "5972c3"
-COLORS["brown"] = "997052"
-COLORS["grey"] = "999999"
-COLORS["orange"] = "cc823f"
-COLORS["pink"] = "ce6ca2"
-COLORS["purple"] = "8463c5"
-COLORS["red"] = "b74c4a"
-COLORS["sand"] = "c4a660"
-COLORS["teal"] = "59c3ad"
-COLORS["yellow"] = "e7bc0d"
 
-GREEN_COLOR = "8bb158"
+SRC = {"folder":"eeca8f","backfolder":"c89e6b","paper":"e4e4e4","line":"92b372","emblem":"575757"}
+GREEN = {"name":"green","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"92b372","emblem":"575757"}
+AQUA = {"name":"aqua","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"6cabcd","emblem":"575757"}
+BLUE = {"name":"blue","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"5b73c4","emblem":"575757"}
+BROWN = {"name":"brown","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"aa876a","emblem":"575757"}
+GREY = {"name":"grey","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"9d9d9d","emblem":"575757"}
+ORANGE = {"name":"orange","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"db9d61","emblem":"575757"}
+PINK = {"name":"pink","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"e54980","emblem":"575757"}
+PURPLE = {"name":"purple","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"8c6ec9","emblem":"575757"}
+RED = {"name":"red","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"c15b58","emblem":"575757"}
+SAND = {"name":"sand","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"c8ac69","emblem":"575757"}
+TEAL = {"name":"teal","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"5aaa9a","emblem":"575757"}
 
-for color in COLORS:
-    value = COLORS[color]
-    os.system("sed 's/%s/%s/g' green.svg > %s.svg" % (GREEN_COLOR, value, color))
+VARIANTS = [GREEN, AQUA, BLUE, BROWN, GREY, ORANGE, PINK, PURPLE, RED, SAND, TEAL]
+
+for variant in VARIANTS:
+    name = variant["name"]
+    os.system(f"cp src.svg {name}.svg")
+    for key in SRC.keys():
+        src_color = SRC[key]
+        color = variant[key]
+        if src_color != color:
+            os.system("sed -i 's/%s/%s/g' %s.svg" % (src_color, color, name))
