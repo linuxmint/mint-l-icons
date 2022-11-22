@@ -18,7 +18,7 @@ import os
 # It uses the following color table to do so:
 
 SRC = {"folder":"eeca8f","backfolder":"c89e6b","paper":"e4e4e4","line":"92b372","emblem":"575757"}
-GREEN = {"name":"green","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"92b372","emblem":"575757"}
+GREEN = {"name":"green","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"35a854","emblem":"575757"}
 AQUA = {"name":"aqua","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"1f9ede","emblem":"575757"}
 BLUE = {"name":"blue","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"0c75de","emblem":"575757"}
 BROWN = {"name":"brown","folder":"f9bd30","backfolder":"e19d00","paper":"e4e4e4","line":"aa876a","emblem":"575757"}
