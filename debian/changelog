@@ -1,3 +1,41 @@
+mint-y-icons (1.6.2) vera; urgency=medium
+
+  [ Clement Lefebvre ]
+  * user-desktop: Flip icon vertically
+  * render-apps: Fix script compatibility with new inkscape
+  * cs-desktop: Flip vertically
+  * user-desktop-symbolic: Flip vertically
+
+  [ Sébastien Bouchard ]
+  * "sed -i 's/block-progression:tb;//g' *" (deprecated and unneeded CSS property) (#322)
+  * modified:   src/render_places.py (--export-png -> --export-filename) (#323)
+
+  [ Fabio Fantoni ]
+  * some packaging improvements (#315)
+
+  [ Copra ]
+  * Adding a few more icons (#313)
+
+  [ Clement Lefebvre ]
+  * src/apps: Fix filenames for audible/pinterest
+  * src/render-apps-categories-bitmaps.py: Identify incorrect icon names
+  * apps: Fix incorrect icon names
+  * Regenerate app icons
+  * Switch to papirus inspired places
+  * Regenerate icons
+  * Update Aqua, Orange, Purple, Red, Sand, Teal
+  * Update Blue and Grey
+
+  [ Michael Webster ]
+  * Run multiple jobs at once in render_places.py.
+  * Pixel align folder icons.
+
+  [ Clement Lefebvre ]
+  * Update Green
+  * Tune colors
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 22 Nov 2022 15:40:29 +0000
+
 mint-y-icons (1.6.1) vanessa; urgency=medium
 
   [ JosephMcc ]
