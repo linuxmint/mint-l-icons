@@ -1,3 +1,10 @@
+mint-y-icons (1.6.4) vera; urgency=medium
+
+  * Adjust folder color tones
+  * Generate files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 28 Nov 2022 12:25:51 +0000
+
 mint-y-icons (1.6.3) vera; urgency=medium
 
   * Remove Yellow Mint-Y theme
