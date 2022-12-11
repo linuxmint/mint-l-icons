@@ -23,8 +23,6 @@ def check_symbolic_links_list():
                     CHECK_DIR += "/64"
                 if not os.path.exists(os.path.join(CHECK_DIR, target_svg)):
                     print(target_svg + " does not exist (line " + str(line_no) + ")")
-                    #pass
-
                 create_symbolic_link(target, symlink)
 
 def create_symbolic_link(target, symlink):

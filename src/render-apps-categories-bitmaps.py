@@ -147,19 +147,13 @@ def main(args, SRC):
                         if self.force or not os.path.exists(outfile):
                             print (self.context, self.icon_name, self.file_name)
                             inkscape_render_rect(self.path, id, dpi, outfile)
-                            #sys.stdout.write('.')
                         else:
                             stat_in = os.stat(self.path)
                             stat_out = os.stat(outfile)
                             if stat_in.st_mtime > stat_out.st_mtime:
                                 print (self.context, self.icon_name, self.file_name)
                                 inkscape_render_rect(self.path, id, dpi, outfile)
-                                #sys.stdout.write('.')
-                            #else:
-                            #    sys.stdout.write('-')
                         sys.stdout.flush()
-                #sys.stdout.write('\n')
-                #sys.stdout.flush()
 
         def characters(self, chars):
             self.chars += chars.strip()
