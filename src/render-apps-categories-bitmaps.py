@@ -131,7 +131,6 @@ def main(args, SRC):
                 for rect in self.rects:
                     for dpi_factor in DPIS:
                         width = rect['width']
-                        height = rect['height']
                         id = rect['id']
                         dpi = DPI_1_TO_1 * dpi_factor
 
