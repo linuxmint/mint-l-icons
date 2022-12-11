@@ -122,7 +122,7 @@ def main(args, SRC):
                 assert self.icon_name
                 assert self.context
 
-                if self.filter is not None and not self.icon_name in self.filter:
+                if self.filter is not None and self.icon_name not in self.filter:
                     return
 
                 if (self.icon_name != self.file_name):
