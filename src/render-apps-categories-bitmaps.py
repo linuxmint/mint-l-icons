@@ -91,13 +91,13 @@ def main(args, SRC):
                     if attr == "context":
                         self.stack.append(self.TEXT)
                         self.inside.append(self.TEXT)
-                        self.text='context'
+                        self.text = 'context'
                         self.chars = ""
                         return
                     if attr == "icon-name":
                         self.stack.append(self.TEXT)
                         self.inside.append(self.TEXT)
-                        self.text='icon-name'
+                        self.text = 'icon-name'
                         self.chars = ""
                         return
                     if name == "rect":

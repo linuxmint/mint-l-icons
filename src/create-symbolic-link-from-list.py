@@ -11,7 +11,7 @@ def check_symbolic_links_list():
     with open(SYMBOLIC_APPS_FILE, "r") as symbolic_apps_file:
         line_no = 0
         for symbolic_link_ref in symbolic_apps_file:
-            line_no = line_no+1
+            line_no = line_no + 1
             if " <- " not in symbolic_link_ref:
                 print("Wrong symbolic link reference in line " + str(line_no) + ": " + symbolic_link_ref)
             else:
