@@ -125,7 +125,7 @@ def main(args, SRC):
                 if self.filter is not None and self.icon_name not in self.filter:
                     return
 
-                if (self.icon_name != self.file_name):
+                if self.icon_name != self.file_name:
                     print(f"icon name in {self.file_name} is wrong: {self.icon_name}")
                     sys.exit(1)
                 for rect in self.rects:
@@ -135,7 +135,7 @@ def main(args, SRC):
                         id = rect['id']
                         dpi = DPI_1_TO_1 * dpi_factor
 
-                        size_str = "%s" % (width)
+                        size_str = "%s" % width
                         if dpi_factor != 1:
                             size_str += "@%sx" % dpi_factor
 
