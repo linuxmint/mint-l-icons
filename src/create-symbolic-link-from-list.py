@@ -55,16 +55,16 @@ if __name__ == "__main__":
         if sys.argv[1] in ["apps", "categories", "mimetypes"]:
             SYMBOLIC_APPS_FILE = os.path.join(os.getcwd(), "symbolic-" + sys.argv[1] + "-list")
             SRC_DIR = os.path.join(os.getcwd(), sys.argv[1])
-            APPS_DIR = os.path.join(os.getcwd(), "..", "usr", "share", "icons", "Mint-Y-Legacy", sys.argv[1])
+            APPS_DIR = os.path.join(os.getcwd(), "..", "usr", "share", "icons", "Mint-L", sys.argv[1])
 
             print("Creating symbolic links in " + sys.argv[1] + " directories...")
             check_symbolic_links_list()
             print("Done!")
         elif sys.argv[1] in ['delete-symbolic-apps']:
-            APPS_DIR = os.path.join(os.getcwd(), "..", "usr", "share", "icons", "Mint-Y-Legacy", "apps")
+            APPS_DIR = os.path.join(os.getcwd(), "..", "usr", "share", "icons", "Mint-L", "apps")
             delete_symbolic_links()
         elif sys.argv[1] in ['delete-symbolic-categories']:
-            APPS_DIR = os.path.join(os.getcwd(), "..", "usr", "share", "icons", "Mint-Y-Legacy", "categories")
+            APPS_DIR = os.path.join(os.getcwd(), "..", "usr", "share", "icons", "Mint-L", "categories")
             delete_symbolic_links()
         elif sys.argv[1] == 'show-deadlinks':
             os.chdir(DEADLINK_DIR)

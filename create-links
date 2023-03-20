@@ -13,7 +13,7 @@ if __name__ == '__main__':
         for extension in extensions:
             iconname = iconname + extension
             for color in colors:
-                for dirname, subdirs, filelist in os.walk("usr/share/icons/Mint-Y-Legacy%s/%s" % (color, icontype)):
+                for dirname, subdirs, filelist in os.walk("usr/share/icons/Mint-L%s/%s" % (color, icontype)):
                     for filename in filelist:
                         if filename == iconname:
                             print(filename)

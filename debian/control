@@ -1,15 +1,17 @@
-Source: mint-y-icons-legacy
+Source: mint-l-icons
 Section: gnome
 Priority: optional
-Maintainer: Clement Lefebvre <root@linuxmint.com>
+Maintainer: Linux Mint <root@linuxmint.com>
 Build-Depends:
  debhelper-compat (= 12)
 Standards-Version: 4.5.1
 Rules-Requires-Root: no
-Homepage: https://github.com/linuxmint/mint-y-icons-legacy
+Homepage: https://github.com/linuxmint/mint-l-icons
 
-Package: mint-y-icons-legacy
+Package: mint-l-icons
+Breaks: mint-y-icons-legacy
+Replaces: mint-y-icons-legacy
 Architecture: all
-Description: Mint-Y legacy icon theme
+Description: Mint-L icon theme
  A flat, colorful, and modern theme based on
  Paper and Moka.
