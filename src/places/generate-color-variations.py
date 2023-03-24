@@ -4,19 +4,28 @@ import os
 # This script uses src.svg and generates svg files for each defined color
 # It uses the following color table to do so:
 
-SRC = {"folder":"eeca8f","backfolder":"c89e6b","paper":"e4e4e4","line":"92b372","emblem":"575757"}
+SRC = {"folder":"eeca8f","backfolder":"c89e6b","paper":"e8e8e8","line":"92b372","emblem":"575757"}
 VARIANTS = []
-VARIANTS.append({"name":"Green","folder":"f9c470","backfolder":"e0a84f","paper":"e4e4e4","line":"35a854","emblem":"4a4a4a"})
-VARIANTS.append({"name":"Aqua","folder":"f9c470","backfolder":"e0a84f","paper":"e4e4e4","line":"1f9ede","emblem":"4a4a4a"})
-VARIANTS.append({"name":"Blue","folder":"f9c470","backfolder":"e0a84f","paper":"e4e4e4","line":"1f9ede","emblem":"4a4a4a"})
-VARIANTS.append({"name": "Brown","folder":"f9c470","backfolder":"e0a84f","paper":"e4e4e4","line":"aa876a","emblem":"4a4a4a"})
-VARIANTS.append({"name":"Grey","folder":"f9c470","backfolder":"e0a84f","paper":"e4e4e4","line":"70737a","emblem":"4a4a4a"})
-VARIANTS.append({"name":"Orange","folder":"f9c470","backfolder":"e0a84f","paper":"e4e4e4","line":"ff7139","emblem":"4a4a4a"})
-VARIANTS.append({"name":"Pink","folder":"f06292","backfolder":"ec407a","paper":"e4e4e4","line":"ec407a","emblem":"542233"})
-VARIANTS.append({"name":"Purple","folder":"f9c470","backfolder":"e0a84f","paper":"e4e4e4","line":"8c5dd9","emblem":"4a4a4a"})
-VARIANTS.append({"name":"Red","folder":"f9c470","backfolder":"e0a84f","paper":"e4e4e4","line":"e82127","emblem":"4a4a4a"})
-VARIANTS.append({"name":"Sand","folder":"f9c470","backfolder":"e0a84f","paper":"e4e4e4","line":"c5a07c","emblem":"4a4a4a"})
-VARIANTS.append({"name":"Teal","folder":"f9c470","backfolder":"e0a84f","paper":"e4e4e4","line":"199ca8","emblem":"4a4a4a"})
+
+# Blue
+VARIANTS.append({"name":"Blue","folder":"5294e2","backfolder":"4877b1","paper":"e4e4e4","line":"5294e2","emblem":"1d344f"})
+VARIANTS.append({"name":"Aqua","folder":"57b8ec","backfolder":"147eb8","paper":"e4e4e4","line":"57b8ec","emblem":"106796"})
+VARIANTS.append({"name":"Teal","folder":"45abb7","backfolder":"35818a","paper":"e4e4e4","line":"45abb7","emblem":"eaeaea"})
+VARIANTS.append({"name":"Green","folder":"50c16f","backfolder":"1f953f","paper":"e4e4e4","line":"50c16f","emblem":"2f3e1f"})
+VARIANTS.append({"name":"Sand","folder":"f9c470","backfolder":"e0a84f","paper":"e4e4e4","line":"f9c470","emblem":"4a4a4a"})
+VARIANTS.append({"name":"Grey","folder":"aaaaaa","backfolder":"727272","paper":"ffffff","line":"aaaaaa","emblem":"4f4f4f"})
+VARIANTS.append({"name":"Orange","folder":"ff804f","backfolder":"f2632a","paper":"e4e4e4","line":"ff804f","emblem":"4a4a4a"})
+VARIANTS.append({"name": "Red","folder":"f54f54","backfolder":"ca0f14","paper":"e4e4e4","line":"f54f54","emblem":"4d1c1c"})
+VARIANTS.append({"name":"Pink","folder":"f26a9a","backfolder":"cf2f67","paper":"e4e4e4","line":"f26a9a","emblem":"542233"})
+VARIANTS.append({"name":"Purple","folder":"a27ae4","backfolder":"7240c3","paper":"e4e4e4","line":"a27ae4","emblem":"2c1e44"})
+VARIANTS.append({"name":"Cyan","folder":"00bcd4","backfolder":"0096aa","paper":"e4e4e4","line":"00bcd4","emblem":"00424a"})
+VARIANTS.append({"name":"Navy","folder":"b8d8eb","backfolder":"004988","paper":"f4f4f4","line":"b8d8eb","emblem":"081f2d"})
+VARIANTS.append({"name":"Yaru","folder":"676767","backfolder":"973552","paper":"ff7446","line":"676767","emblem":"e4e4e4"})
+
+for filename in os.listdir("."):
+    if filename.endswith(".svg"):
+        if filename not in ["extra.svg", "src.svg"]:
+            os.remove(filename)
 
 for variant in VARIANTS:
     name = variant["name"]
