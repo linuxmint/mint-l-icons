@@ -24,7 +24,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -972,17 +971,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="986"
+     inkscape:window-width="2560"
+     inkscape:window-height="1352"
      id="namedview4"
      showgrid="true"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="283.54982"
-     inkscape:cy="51.265242"
-     inkscape:window-x="1920"
-     inkscape:window-y="26"
+     inkscape:zoom="1"
+     inkscape:cx="752.49998"
+     inkscape:cy="222.99999"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2"
+     inkscape:current-layer="g829-5-6"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
@@ -1059,10 +1058,6 @@
            rx="2"
            ry="2"
            id="rect10-35-1" />
-        <path
-           id="rect10-3-6"
-           style="fill:#f9c470;fill-opacity:1"
-           d="M 44.001682,29.221623 31.222385,42.00092 h 4.564453 l 8.214844,-8.214844 z" />
       </g>
       <path
          style="opacity:0.1;fill:#ffffff"
@@ -3390,10 +3385,6 @@
            rx="2"
            ry="2"
            id="rect10-35-1-4" />
-        <path
-           id="rect10-3-6-3"
-           style="fill:#f9c470;fill-opacity:1"
-           d="M 44.001682,29.221623 31.222385,42.00092 h 4.564453 l 8.214844,-8.214844 z" />
       </g>
       <path
          style="opacity:0.1;fill:#ffffff"
@@ -3453,10 +3444,6 @@
          style="opacity:0.1;fill:#ffffff"
          d="M 6,6 C 4.892,6 4,6.892 4,8 V 9 C 4,7.892 4.892,7 6,7 h 11 c 3,0 4,4 7,4 h 18 c 1.108,0 2,0.892 2,2 v -1 c 0,-1.108 -0.892,-2 -2,-2 H 24 C 21,10 20,6 17,6 Z"
          id="path12-7" />
-      <path
-         id="rect10-3-4"
-         style="fill:#f9c470;fill-opacity:1"
-         d="M 44.001682,29.221623 31.222385,42.00092 h 4.564453 l 8.214844,-8.214844 z" />
     </g>
     <rect
        y="-1.749994"
@@ -3517,10 +3504,6 @@
            rx="2"
            ry="2"
            id="rect10-35-3" />
-        <path
-           id="rect10-3-6-2"
-           style="fill:#f9c470;fill-opacity:1"
-           d="M 44.001682,29.221623 31.222385,42.00092 h 4.564453 l 8.214844,-8.214844 z" />
       </g>
       <path
          style="opacity:0.1;fill:#ffffff"
@@ -3729,10 +3712,6 @@
            rx="2"
            ry="2"
            id="rect10-35-1-4-9" />
-        <path
-           id="rect10-3-6-3-2"
-           style="fill:#f9c470;fill-opacity:1"
-           d="M 44.001682,29.221623 31.222385,42.00092 h 4.564453 l 8.214844,-8.214844 z" />
       </g>
       <path
          style="opacity:0.1;fill:#ffffff"
