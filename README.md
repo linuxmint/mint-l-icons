@@ -8,12 +8,6 @@ The application and category icons originate from the Moka icon theme:
 * Author: Sam Hewitt <hewittsamuel@gmail.com>
 * License: Creative Commons Attribution-ShareAlike 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
 
-The folder icons originate from the Arc icon theme:
-
-* Link: https://github.com/horst3180/arc-icon-theme
-* Author: horst3180 (http://horst3180.deviantart.com)
-* License: GPLv3
-
 The device icons originate from the Paper icon theme:
 
 * Link: https://github.com/snwh/paper-icon-theme
@@ -26,7 +20,7 @@ The mimetype icons originate from the Elementary icon theme:
 * Author: Members of the Elementary OS team (https://github.com/orgs/elementary/people)
 * License: GPLv3 (https://choosealicense.com/licenses/gpl-3.0/)
 
-The action and panel icons originate from the ePapirus theme:
+The places, action and panel icons originate from the Papirus theme:
 
 * Link: https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
 * Author: Members of the Papirus Development Team (https://github.com/orgs/PapirusDevelopmentTeam/people)
