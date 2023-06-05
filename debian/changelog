@@ -1,3 +1,25 @@
+mint-y-icons (1.6.6) victoria; urgency=medium
+
+  [ Nazar Niphone ]
+  * Added GoLand and PhpStorm icons (#333)
+
+  [ Clement Lefebvre ]
+  * Remove fullcolor monochrome actions
+  * Remove dark icon themes
+  * Refactor Places generator
+  * Rework place colors
+  * Add definitions for folder-color-switcher
+  * places: Remove line on folders
+  * Regenerate places files
+  * places: Fixed 24px folder-recent
+  * Update README
+  * Update README.md
+
+  [ Callum Andrew ]
+  * Add symlinks for Bitwarden flatpak
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 05 Jun 2023 13:16:11 +0100
+
 mint-y-icons (1.6.5) vera; urgency=medium
 
   * Remove obsolete Mint-Y-Dark-Yellow
