@@ -1,3 +1,13 @@
+mint-l-icons (1.6.5) victoria; urgency=medium
+
+  [ Michael Webster ]
+  * Add document-new and document-revert color icons.
+  * Add missing 16px fullcolor help icons.
+  * Remove all generic symbolic action icons, and those color icons added in 8777c2a23, 4449605ef.
+  * Add cs-gestures icon.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 08 Jul 2023 18:39:30 +0200
+
 mint-l-icons (1.6.4) vera; urgency=medium
 
   [ hduelme ]
