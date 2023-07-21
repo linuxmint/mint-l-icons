@@ -1,6 +1,5 @@
 if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
 	if which update-icon-caches >/dev/null 2>&1 ; then
 		update-icon-caches /usr/share/icons/Mint-L /usr/share/icons/Mint-L-Aqua /usr/share/icons/Mint-L-Blue /usr/share/icons/Mint-L-Brown /usr/share/icons/Mint-L-Grey /usr/share/icons/Mint-L-Orange /usr/share/icons/Mint-L-Pink /usr/share/icons/Mint-L-Purple /usr/share/icons/Mint-L-Red /usr/share/icons/Mint-L-Sand /usr/share/icons/Mint-L-Teal /usr/share/icons/Mint-L-Yellow
-		update-icon-caches /usr/share/icons/Mint-L-Dark /usr/share/icons/Mint-L-Dark-Aqua /usr/share/icons/Mint-L-Dark-Blue /usr/share/icons/Mint-L-Dark-Brown /usr/share/icons/Mint-L-Dark-Grey /usr/share/icons/Mint-L-Dark-Orange /usr/share/icons/Mint-L-Dark-Pink /usr/share/icons/Mint-L-Dark-Purple /usr/share/icons/Mint-L-Dark-Red /usr/share/icons/Mint-L-Dark-Sand /usr/share/icons/Mint-L-Dark-Teal /usr/share/icons/Mint-L-Dark-Yellow
 	fi
 fi
