@@ -1,3 +1,9 @@
+mint-l-icons (1.6.7) virginia; urgency=medium
+
+  * Mint-L: Add missing icons from Adwaita's 'legacy' set.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 14 Dec 2023 14:05:22 +0000
+
 mint-l-icons (1.6.6) virginia; urgency=medium
 
   * Add cs-actions
