@@ -96,6 +96,7 @@ archive-manager.png <- xarchiver.png
 ardour.png <- ardour2.png
 ardour.png <- ardour5.png
 ardour.png <- ardour_icon_22px.png
+ardour.png <- org.ardour.Ardour.png
 arduino.png <- arduino-ide.png
 arduino.png <- cc.arduino.arduinoide.png
 assistant.png <- assistant-qt4.png
@@ -489,6 +490,7 @@ libreoffice-writer.png <- ooo-writer.png
 libreoffice-writer.png <- org.libreoffice.LibreOffice-writer.png
 linguist.png <- linguist-qt4.png
 linguist.png <- QtProject-linguist.png
+lmms.png <- io.lmms.LMMS.png
 locale.png <- config-language.png
 locale.png <- cs-language.png
 locale.png <- cs-region.png
