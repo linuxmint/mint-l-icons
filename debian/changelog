@@ -1,3 +1,9 @@
+mint-l-icons (1.6.8) wilma; urgency=medium
+
+  * Add gnome-online-accounts-gtk
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 27 Mar 2024 17:28:52 +0000
+
 mint-l-icons (1.6.7) virginia; urgency=medium
 
   * Mint-L: Add missing icons from Adwaita's 'legacy' set.
