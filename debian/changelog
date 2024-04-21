@@ -1,3 +1,10 @@
+mint-l-icons (1.6.9) wilma; urgency=medium
+
+  * folder-color-switcher: Add missing choice for Yellow
+  * Add a link for org.gnome.FileRoller
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 21 Apr 2024 12:35:02 +0100
+
 mint-l-icons (1.6.8) wilma; urgency=medium
 
   * Add gnome-online-accounts-gtk
