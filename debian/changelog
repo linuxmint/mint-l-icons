@@ -1,3 +1,9 @@
+mint-l-icons (1.7.0) wilma; urgency=medium
+
+  * Add element and mintchat
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 23 Apr 2024 11:36:27 +0100
+
 mint-l-icons (1.6.9) wilma; urgency=medium
 
   * folder-color-switcher: Add missing choice for Yellow
