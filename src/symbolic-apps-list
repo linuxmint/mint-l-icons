@@ -383,11 +383,9 @@ inkscape.png <- org.inkscape.Inkscape.png
 internet-mail.png <- claws-mail.png
 internet-mail.png <- email.png
 internet-mail.png <- evolution.png
-internet-mail.png <- geary.png
 internet-mail.png <- kmail.png
 internet-mail.png <- mail-generic.png
 internet-mail.png <- mail_generic.png
-internet-mail.png <- org.gnome.Geary.png
 internet-mail.png <- redhat-email.png
 internet-mail.png <- sylpheed.png
 internet-mail.png <- unity-mail.png
@@ -512,7 +510,6 @@ logviewer.png <- logview.png
 logviewer.png <- org.gnome.Logs.png
 logviewer.png <- system-utilities-logviewer.png
 logviewer.png <- utilities-log-viewer.png
-lollypop.png <- org.gnome.Lollypop.png
 lutris.png <- jstest-gtk.png
 lutris.png <- net.lutris.Lutris.png
 mahjongg.png <- gnome-mahjongg.png
@@ -877,7 +874,6 @@ trophy.png <- supertux.png
 trophy.png <- xmoto.png
 tweetdeck.png <- chrome-hbdpomandigafcibbmofojjchbcdagbl-Default.png
 tweetdeck.png <- Tweetdeck-tweetdeck.twitter.com.png
-uberwriter.png <- Uberwriter.png
 ubuntuone.png <- goa-account-ubuntusso.png
 ubuntuone.png <- ubuntuone-client.png
 ubuntuone.png <- ubuntuone-installer.png
@@ -922,8 +918,6 @@ video-editor.png <- org.avidemux.Avidemux.png
 video-editor.png <- kaffeine.png
 video-editor.png <- kdenlive.png
 video-editor.png <- org.kde.kdenlive.png
-video-editor.png <- org.pitivi.Pitivi.png
-video-editor.png <- pitivi.png
 vim.png <- gvim.png
 vim.png <- org.vim.Vim.png
 vineyard.png <- vineyard-preferences.png

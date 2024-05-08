@@ -1,3 +1,22 @@
+mint-l-icons (1.7.0) wilma; urgency=medium
+
+  * Add element and mintchat
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 23 Apr 2024 11:36:27 +0100
+
+mint-l-icons (1.6.9) wilma; urgency=medium
+
+  * folder-color-switcher: Add missing choice for Yellow
+  * Add a link for org.gnome.FileRoller
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 21 Apr 2024 12:35:02 +0100
+
+mint-l-icons (1.6.8) wilma; urgency=medium
+
+  * Add gnome-online-accounts-gtk
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 27 Mar 2024 17:28:52 +0000
+
 mint-l-icons (1.6.7) virginia; urgency=medium
 
   * Mint-L: Add missing icons from Adwaita's 'legacy' set.
