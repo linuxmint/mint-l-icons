@@ -1,3 +1,19 @@
+mint-l-icons (1.7.1) wilma; urgency=medium
+
+  [ Clement Lefebvre ]
+  * Remove geary
+  * Remove lollypop
+  * Remove pitivi
+  * Remove uberwriter
+
+  [ Sakii ]
+  * Add missing Flatpak app icon links
+
+  [ Hokiper ]
+  * Add Kotlin mimetype (#9)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 16 Jun 2024 12:26:54 +0100
+
 mint-l-icons (1.7.0) wilma; urgency=medium
 
   * Add element and mintchat
