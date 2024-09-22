@@ -1,0 +1,48 @@
+internet-web-browser.png
+--> usr/share/icons/Mint-L/apps/48@2x:
+    ln -s internet-web-browser.png -.png
+internet-web-browser.png
+--> usr/share/icons/Mint-L/apps/16@2x:
+    ln -s internet-web-browser.png -.png
+internet-web-browser.png
+--> usr/share/icons/Mint-L/apps/64:
+    ln -s internet-web-browser.png -.png
+internet-web-browser.png
+--> usr/share/icons/Mint-L/apps/48:
+    ln -s internet-web-browser.png -.png
+internet-web-browser.png
+--> usr/share/icons/Mint-L/apps/16:
+    ln -s internet-web-browser.png -.png
+internet-web-browser.png
+--> usr/share/icons/Mint-L/apps/22@2x:
+    ln -s internet-web-browser.png -.png
+internet-web-browser.png
+--> usr/share/icons/Mint-L/apps/96@2x:
+    ln -s internet-web-browser.png -.png
+internet-web-browser.png
+--> usr/share/icons/Mint-L/apps/22:
+    ln -s internet-web-browser.png -.png
+internet-web-browser.png
+--> usr/share/icons/Mint-L/apps/256:
+    ln -s internet-web-browser.png -.png
+internet-web-browser.png
+--> usr/share/icons/Mint-L/apps/64@2x:
+    ln -s internet-web-browser.png -.png
+internet-web-browser.png
+--> usr/share/icons/Mint-L/apps/24@2x:
+    ln -s internet-web-browser.png -.png
+internet-web-browser.png
+--> usr/share/icons/Mint-L/apps/24:
+    ln -s internet-web-browser.png -.png
+internet-web-browser.png
+--> usr/share/icons/Mint-L/apps/32@2x:
+    ln -s internet-web-browser.png -.png
+internet-web-browser.png
+--> usr/share/icons/Mint-L/apps/96:
+    ln -s internet-web-browser.png -.png
+internet-web-browser.png
+--> usr/share/icons/Mint-L/apps/256@2x:
+    ln -s internet-web-browser.png -.png
+internet-web-browser.png
+--> usr/share/icons/Mint-L/apps/32:
+    ln -s internet-web-browser.png -.png
