@@ -1,3 +1,16 @@
+mint-l-icons (1.7.3) xia; urgency=medium
+
+  [ MrReplikant ]
+  * Fix broken XFCE symlinks (#13)
+
+  [ Clement Lefebvre ]
+  * Add aptkit
+
+  [ Sakii ]
+  * Backport missing apps and symlinks from mint-y-icons (#12)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 26 Nov 2024 11:41:07 +0000
+
 mint-l-icons (1.7.2) wilma; urgency=medium
 
   [ Michael Webster ]
