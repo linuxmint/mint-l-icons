@@ -1,0 +1,4 @@
+debian/mint-l-icons/
+debian/*debhelper*
+debian/files
+debian/*substvar*
