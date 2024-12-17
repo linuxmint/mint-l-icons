@@ -1,3 +1,14 @@
+mint-l-icons (1.7.4) xia; urgency=medium
+
+  [ Marcos Sánchez ]
+  * Night light icon (#15)
+
+  [ Clement Lefebvre ]
+  * Add .gitignore
+  * Generate cs-nightlight icons
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 17 Dec 2024 13:33:42 +0000
+
 mint-l-icons (1.7.3) xia; urgency=medium
 
   [ MrReplikant ]
