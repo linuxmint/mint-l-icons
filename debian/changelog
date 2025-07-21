@@ -1,3 +1,19 @@
+mint-l-icons (1.7.5) zara; urgency=medium
+
+  [ Hokiper ]
+  * Fix render-mimetypes.py (#16)
+
+  [ Matthew Petroff ]
+  * Add emblems for links and broken links. (#17)
+
+  [ Archisman Panigrahi ]
+  * add new icon name for typhoon (#18)
+
+  [ Marcos Sánchez ]
+  * simplified cs-nightlight icon (#19)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 21 Jul 2025 14:16:42 +0200
+
 mint-l-icons (1.7.4) xia; urgency=medium
 
   [ Marcos Sánchez ]
