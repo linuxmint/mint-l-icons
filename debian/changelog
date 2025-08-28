@@ -1,3 +1,12 @@
+mint-l-icons (1.7.6) zara; urgency=medium
+
+  [ Michael Webster ]
+  * Add window-close-symbolic, adjust other window control buttons for libadwaita/libadapta.
+  * Tweak window control sizes.
+  * apps: Sync from mint-y-icons.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 28 Aug 2025 10:07:43 +0200
+
 mint-l-icons (1.7.5) zara; urgency=medium
 
   [ Hokiper ]
