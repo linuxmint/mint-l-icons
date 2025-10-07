@@ -1,3 +1,9 @@
+mint-l-icons (1.7.8) gigi; urgency=medium
+
+  * Add process-working-symbolic.svg
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 07 Oct 2025 15:44:59 +0100
+
 mint-l-icons (1.7.7) gigi; urgency=medium
 
   * Remove postinst
