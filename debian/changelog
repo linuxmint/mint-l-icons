@@ -1,3 +1,14 @@
+mint-l-icons (1.7.9) zena; urgency=medium
+
+  [ Sakii ]
+  * add OnlyOffice symlink (#21)
+
+  [ Clement Lefebvre ]
+  * Add icon for mintsystadm
+  * Add icon for mintgit
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 24 Nov 2025 14:32:28 +0000
+
 mint-l-icons (1.7.8) gigi; urgency=medium
 
   * Add process-working-symbolic.svg
