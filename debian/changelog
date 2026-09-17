@@ -1,3 +1,9 @@
+mint-l-icons (1.8.3) adrien; urgency=medium
+
+  * Add clockenstein-calendar
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 17 Sep 2026 09:06:17 +0100
+
 mint-l-icons (1.8.2) alfa; urgency=medium
 
   * Add clockenstein-calendar
