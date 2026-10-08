@@ -9,6 +9,7 @@ Rules-Requires-Root: no
 Homepage: https://github.com/linuxmint/mint-l-icons
 
 Package: mint-l-icons
+Depends: mint-y-icons
 Breaks: mint-y-icons-legacy
 Replaces: mint-y-icons-legacy
 Architecture: all
